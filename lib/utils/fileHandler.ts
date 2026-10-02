@@ -2,6 +2,11 @@ import { apiClient } from '../services/api';
 import { API_ENDPOINTS, LOCAL_STORAGE_KEYS } from './constants';
 import { getLocalStorage } from './helpers';
 
+// Default API base URL (Railway production backend).
+// Override with NEXT_PUBLIC_API_URL in .env.local for local development
+// e.g. NEXT_PUBLIC_API_URL=http://localhost:4242/api
+const DEFAULT_API_URL = 'https://staffly-backend-production.up.railway.app/api';
+
 // Helper function to get auth token and set it in API client
 function getAuthToken(): string {
   const token = getLocalStorage(LOCAL_STORAGE_KEYS.AUTH_TOKEN, null);
@@ -63,7 +68,7 @@ export async function uploadSingleFile(file: File): Promise<FileUploadResponse> 
     const token = getAuthToken();
 
     // Use the API base URL from environment or default
-    const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4242/api';
+    const baseURL = process.env.NEXT_PUBLIC_API_URL || DEFAULT_API_URL;
     const url = `${baseURL}${API_ENDPOINTS.FILE_HANDLER.UPLOAD_SINGLE}`;
 
     const response = await fetch(url, {
@@ -121,7 +126,7 @@ export async function uploadMultipleFiles(files: File[]): Promise<MultipleFileUp
     const token = getAuthToken();
 
     // Use the API base URL from environment or default
-    const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4242/api';
+    const baseURL = process.env.NEXT_PUBLIC_API_URL || DEFAULT_API_URL;
     const url = `${baseURL}${API_ENDPOINTS.FILE_HANDLER.UPLOAD_MULTIPLE}`;
 
     const response = await fetch(url, {
@@ -160,4 +165,4 @@ export async function deleteMultipleFiles(fileUrls: string[]): Promise<FileDelet
   } catch (error) {
     throw new Error('Failed to delete files');
   }
-} 
+}

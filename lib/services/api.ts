@@ -2,8 +2,13 @@ import { ApiSuccessResponse, BackendApiResponse, FilterOptions } from '../types'
 import { buildQueryString, getErrorMessage } from '../utils/helpers';
 import { API_ENDPOINTS } from '../utils/constants';
 
+// Default API base URL (Railway production backend).
+// Override with NEXT_PUBLIC_API_URL in .env.local for local development
+// e.g. NEXT_PUBLIC_API_URL=http://localhost:4242/api
+const DEFAULT_API_URL = 'https://staffly-backend-production.up.railway.app/api';
+
 // Base API configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4242/api';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || DEFAULT_API_URL;
 const DEFAULT_HEADERS = {
   'Content-Type': 'application/json',
 };
@@ -493,7 +498,7 @@ export const fileHandlerAPI = {
     const formData = new FormData();
     files.forEach(file => formData.append('files', file));
     
-    const baseURL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4242/api';
+    const baseURL = process.env.NEXT_PUBLIC_API_URL || DEFAULT_API_URL;
     const url = `${baseURL}${API_ENDPOINTS.FILE_HANDLER.UPLOAD_MULTIPLE}`;
     
     return fetch(url, {
