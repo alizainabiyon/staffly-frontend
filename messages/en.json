@@ -1,0 +1,1727 @@
+{
+  "HomePage": {
+    "title": "Staffly",
+    "navbar": {
+      "features": "Features",
+      "modules": "Modules",
+      "pricing": "Pricing",
+      "reviews": "Reviews",
+      "login": "Login",
+      "languagePlaceholder": "Select a language"
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Welcome Back",
+      "description": "Complete Business Management Solution",
+      "subtitle": "Sign in to your account to continue",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "demoCredentials": "Demo Credentials:",
+      "loginSuccess": "Login successful!",
+      "loginFailed": "Login failed. Please check your credentials.",
+      "validation": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 6 characters"
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome back! Here's what's happening in your business.",
+    "stats": {
+      "incomingFromCustomers": "Incoming from Customers",
+      "outgoingToVendors": "Outgoing to Vendors",
+      "totalInTill": "Total in Till",
+      "cashInTill": "Cash in Till",
+      "pending": "Pending",
+      "due": "Due",
+      "available": "Available",
+      "cash": "Cash"
+    },
+    "charts": {
+      "revenueVsExpenses": "Revenue vs Expenses",
+      "employeeDistribution": "Employee Distribution",
+      "revenue": "Revenue",
+      "expenses": "Expenses"
+    },
+    "recentActivities": "Recent Activities",
+    "activities": {
+      "newInvoice": "New invoice generated for {company}",
+      "payrollProcessed": "Monthly payroll processed for {count} employees",
+      "newCustomer": "New customer registration: {company}",
+      "paymentOverdue": "Payment overdue: {company}",
+      "timeAgo": {
+        "hours": "{count} hours ago",
+        "days": "{count} days ago"
+      }
+    },
+    "error": {
+      "loadingData": "Error Loading Data"
+    }
+  },
+  "Navigation": {
+    "dashboard": "Dashboard",
+    "payroll": "Payroll",
+    "employees": "Employees",
+    "salarySlips": "Salary Slips",
+    "attendance": "Attendance",
+    "loans": "Loans",
+    "crm": "CRM",
+    "customers": "Customers",
+    "contractors": "Contractors",
+    "vendors": "Vendors",
+    "ledger": "Ledger",
+    "finance": "Finance",
+    "quotations": "Quotations",
+    "invoices": "Invoices",
+    "vendorOrders": "Vendor Orders",
+    "directors": "Directors",
+    "till": "Till",
+    "entries": "Entries",
+    "todayEntries": "Today Entries",
+    "allEntries": "All Entries",
+    "reports": "Reports",
+    "expenseReport": "Expense Report",
+    "settings": "Settings",
+    "logout": "Logout",
+    "loggedOutSuccessfully": "Logged out successfully",
+    "company": "Company"
+  },
+  "Payroll": {
+    "title": "Payroll Management",
+    "subtitle": "Comprehensive payroll system for managing employees, salaries, attendance, and more",
+    "modules": {
+      "employeeManagement": {
+        "title": "Employee Management",
+        "description": "Manage employee information, add new employees, and view employee details",
+        "stats": "Total, Active"
+      },
+      "salarySlips": {
+        "title": "Salary Slips",
+        "description": "Generate, manage, and distribute employee salary slips",
+        "stats": "Monthly processing"
+      },
+      "attendanceManagement": {
+        "title": "Attendance Management",
+        "description": "Track employee attendance, working hours, and overtime",
+        "stats": "Daily tracking"
+      },
+      "loansAdvances": {
+        "title": "Loans & Advances",
+        "description": "Manage employee loans, advances, and payment schedules",
+        "stats": "Active loans"
+      }
+    },
+    "stats": {
+      "totalEmployees": "Total Employees",
+      "activeEmployees": "Active Employees",
+      "monthlyPayroll": "Monthly Payroll",
+      "averageSalary": "Average Salary"
+    },
+    "employees": {
+      "title": "Employee Management",
+      "subtitle": "Manage employee information, details, and records",
+      "backToPayroll": "Back to Payroll",
+      "addEmployee": "Add Employee",
+      "stats": {
+        "totalEmployees": "Total Employees",
+        "activeEmployees": "Active Employees",
+        "monthlyPayroll": "Monthly Payroll",
+        "averageSalary": "Average Salary"
+      },
+      "table": {
+        "columns": {
+          "name": "Name",
+          "department": "Department",
+          "email": "Email",
+          "phone": "Phone",
+          "joinDate": "Join Date",
+          "salary": "Salary"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "editEmployee": "Edit Employee",
+          "deleteEmployee": "Delete Employee"
+        },
+        "emptyWithFilters": "No employees match your current filters.",
+        "emptyDefault": "Get started by adding your first employee."
+      },
+      "messages": {
+        "addSuccess": "Employee added successfully",
+        "updateSuccess": "Employee updated successfully",
+        "deleteSuccess": "Employee deleted successfully",
+        "deleteConfirm": "Are you sure you want to delete this employee?",
+        "addFailed": "Failed to add employee",
+        "updateFailed": "Failed to update employee",
+        "deleteFailed": "Failed to delete employee"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addEmployee": "Add Employee",
+      "markAttendance": "Mark Attendance",
+      "generateSalarySlip": "Generate Salary Slip",
+      "processLoan": "Process Loan"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "welcome": "Welcome to Payroll Management",
+      "description": "Use the modules above to manage your payroll operations efficiently",
+      "manageEmployees": "Manage Employees",
+      "trackAttendance": "Track Attendance"
+    },
+    "accessModule": "Access Module"
+  },
+  "CRM": {
+    "title": "Customer Management",
+    "subtitle": "Manage your customers, view details, and track relationships",
+    "addCustomer": "Add Customer",
+    "editCustomer": "Edit Customer",
+    "deleteCustomer": "Delete Customer",
+    "viewCustomer": "View Customer",
+    "stats": {
+      "totalCustomers": "Total Customers",
+      "activeCustomers": "Active Customers",
+      "businessCustomers": "Business Customers",
+      "individualCustomers": "Individual Customers"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "status": "Status",
+      "searchPlaceholder": "Search customers...",
+      "emptyMessage": "No customers found. Get started by adding your first customer."
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "blocked": "Blocked"
+    },
+    "deleteConfirmation": {
+      "title": "Delete Customer",
+      "description": "Are you sure you want to delete {name}? This action cannot be undone and will permanently remove all customer data including relationships and history.",
+      "cancel": "Cancel",
+      "confirm": "Delete Customer"
+    },
+    "messages": {
+      "customerAdded": "Customer added successfully",
+      "customerUpdated": "Customer updated successfully",
+      "customerDeleted": "Customer deleted successfully",
+      "addFailed": "Failed to add customer",
+      "updateFailed": "Failed to update customer",
+      "deleteFailed": "Failed to delete customer"
+    },
+    "form": {
+      "addTitle": "Add New Customer",
+      "editTitle": "Edit Customer",
+      "loadingData": "Loading customer data...",
+      "tabs": {
+        "basicInfo": "Basic Info",
+        "businessDetails": "Business Details (Optional)",
+        "financial": "Financial"
+      },
+      "sections": {
+        "customerInformation": "Customer Information",
+        "businessDetails": "Business Details (Optional)",
+        "financialInformation": "Financial Information"
+      },
+      "fields": {
+        "customerName": "Customer Name",
+        "customerType": "Customer Type",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "otherContactNo": "Other Contact No",
+        "companyName": "Company Name",
+        "contactPerson": "Contact Person",
+        "address": "Address",
+        "city": "City",
+        "country": "Country",
+        "taxNumber": "Tax Number (NTN)",
+        "website": "Website",
+        "officeAddress": "Office Address",
+        "notes": "Notes",
+        "tags": "Tags",
+        "selectContractor": "Select Contractor",
+        "status": "Status"
+      },
+      "placeholders": {
+        "enterCustomerName": "Enter customer name",
+        "selectCustomerType": "Select customer type",
+        "customerEmail": "customer@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "Alternative contact number",
+        "companyName": "Company name",
+        "contactPersonName": "Contact person name",
+        "completeAddress": "Complete address",
+        "selectCity": "Select city",
+        "country": "Country",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "Complete office address",
+        "additionalNotes": "Additional notes about the customer",
+        "addTag": "Add a tag",
+        "selectContractor": "Select contractor (optional)"
+      },
+      "types": {
+        "individual": "Individual",
+        "business": "Business"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "blocked": "Blocked"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "add": "Add Customer",
+        "update": "Update Customer",
+        "saving": "Saving...",
+        "addTag": "Add Tag"
+      }
+    },
+    "detail": {
+      "loading": "Loading customer details...",
+      "notFound": "Customer not found",
+      "backToCustomers": "Back to Customers",
+      "edit": "Edit",
+      "delete": "Delete",
+      "company": "Company",
+      "stats": {
+        "openingBalance": "Opening Balance",
+        "remainingBalance": "Remaining Balance"
+      },
+      "tabs": {
+        "overview": "Customer Information",
+        "ledger": "Financial Ledger",
+        "invoices": "Invoices",
+        "quotations": "Quotations"
+      },
+      "sections": {
+        "personalInformation": "Personal Information",
+        "addressInformation": "Address Information",
+        "additionalInformation": "Additional Information",
+        "systemInformation": "System Information"
+      },
+      "fields": {
+        "fullName": "Full Name",
+        "status": "Status",
+        "customerType": "Customer Type",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone",
+        "otherContact": "Other Contact",
+        "contactPerson": "Contact Person",
+        "fullAddress": "Full Address",
+        "city": "City",
+        "country": "Country",
+        "officeAddress": "Office Address",
+        "website": "Website",
+        "taxNumber": "Tax Number",
+        "notes": "Notes",
+        "tags": "Tags",
+        "createdAt": "Created At",
+        "lastUpdated": "Last Updated",
+        "createdBy": "Created By",
+        "lastUpdatedBy": "Last Updated By"
+      },
+      "ledger": {
+        "summary": "Ledger Summary",
+        "transactions": "Transactions",
+        "noLedgerData": "No Ledger Data",
+        "noLedgerDescription": "This customer doesn't have any financial ledger data yet.",
+        "transactionsFor": "Transactions for {name}",
+        "transactionsSubtitle": "Financial transaction history and details",
+        "searchPlaceholder": "Search transactions...",
+        "noTransactions": "No transactions found for this customer."
+      },
+      "invoices": {
+        "title": "Customer Invoices",
+        "noInvoices": "No Invoices",
+        "noInvoicesDescription": "This customer doesn't have any invoices yet.",
+        "invoicesFor": "Invoices for {name}",
+        "invoicesSubtitle": "Customer invoice history and details",
+        "searchPlaceholder": "Search invoices...",
+        "noInvoicesFound": "No invoices found for this customer."
+      },
+      "quotations": {
+        "title": "Customer Quotations",
+        "noQuotations": "No Quotations",
+        "noQuotationsDescription": "This customer doesn't have any quotations yet.",
+        "quotationsFor": "Quotations for {name}",
+        "quotationsSubtitle": "Customer quotation history and details",
+        "searchPlaceholder": "Search quotations...",
+        "noQuotationsFound": "No quotations found for this customer."
+      },
+      "deleteDialog": {
+        "title": "Delete Customer",
+        "description": "Are you sure you want to delete {name}? This action cannot be undone and will permanently remove all customer data including financial records and relationships.",
+        "cancel": "Cancel",
+        "confirm": "Delete Customer"
+      }
+    }
+  },
+  "Vendor": {
+    "form": {
+      "addTitle": "Add New Vendor",
+      "editTitle": "Edit Vendor",
+      "loadingData": "Loading vendor data...",
+      "tabs": {
+        "basicInfo": "Basic Info",
+        "businessDetails": "Business Details (Optional)",
+        "financial": "Financial"
+      },
+      "sections": {
+        "vendorInformation": "Vendor Information",
+        "businessDetails": "Business Details (Optional)",
+        "financialInformation": "Financial Information"
+      },
+      "fields": {
+        "vendorName": "Vendor Name",
+        "vendorType": "Vendor Type",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "otherContactNo": "Other Contact No",
+        "companyName": "Company Name",
+        "contactPerson": "Contact Person",
+        "address": "Address",
+        "city": "City",
+        "country": "Country",
+        "taxNumber": "Tax Number (NTN)",
+        "website": "Website",
+        "officeAddress": "Office Address",
+        "notes": "Notes",
+        "tags": "Tags",
+        "selectContractor": "Select Contractor",
+        "status": "Status"
+      },
+      "placeholders": {
+        "enterVendorName": "Enter vendor name",
+        "selectVendorType": "Select vendor type",
+        "vendorEmail": "vendor@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "Alternative contact number",
+        "companyName": "Company name",
+        "contactPersonName": "Contact person name",
+        "completeAddress": "Complete address",
+        "selectCity": "Select city",
+        "country": "Country",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "Complete office address",
+        "additionalNotes": "Additional notes about the vendor",
+        "addTag": "Add a tag",
+        "selectContractor": "Select contractor (optional)",
+        "selectStatus": "Select status"
+      },
+      "types": {
+        "individual": "Individual",
+        "business": "Business"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "blocked": "Blocked"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "add": "Add Vendor",
+        "update": "Update Vendor",
+        "saving": "Saving...",
+        "addTag": "Add Tag"
+      }
+    },
+    "management": {
+      "title": "Vendor Management",
+      "subtitle": "Manage your vendors, view details, and track relationships",
+      "addVendor": "Add Vendor",
+      "stats": {
+        "totalVendors": "Total Vendors",
+        "individualVendors": "Individual Vendors",
+        "companyVendors": "Company Vendors",
+        "categories": "Categories"
+      },
+      "emptyMessage": "No vendors found. Get started by adding your first vendor.",
+      "deleteDialog": {
+        "title": "Delete Vendor",
+        "description": "Are you sure you want to delete {name}? This action cannot be undone and will permanently remove all vendor data including relationships and history.",
+        "cancel": "Cancel",
+        "confirm": "Delete Vendor"
+      }
+    }
+  },
+  "Contractor": {
+    "title": "Contractor Management",
+    "subtitle": "Manage your contractors, view details, and track relationships",
+    "addContractor": "Add Contractor",
+    "editContractor": "Edit Contractor",
+    "deleteContractor": "Delete Contractor",
+    "viewContractor": "View Contractor",
+    "stats": {
+      "totalContractors": "Total Contractors",
+      "activeContractors": "Active Contractors",
+      "businessContractors": "Business Contractors",
+      "individualContractors": "Individual Contractors"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "status": "Status",
+      "searchPlaceholder": "Search contractors...",
+      "emptyMessage": "No contractors found. Get started by adding your first contractor."
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "blocked": "Blocked"
+    },
+    "deleteConfirmation": {
+      "title": "Delete Contractor",
+      "description": "Are you sure you want to delete {name}? This action cannot be undone and will permanently remove all contractor data including relationships and history.",
+      "cancel": "Cancel",
+      "confirm": "Delete Contractor"
+    },
+    "messages": {
+      "contractorAdded": "Contractor added successfully",
+      "contractorUpdated": "Contractor updated successfully",
+      "contractorDeleted": "Contractor deleted successfully",
+      "addFailed": "Failed to add contractor",
+      "updateFailed": "Failed to update contractor",
+      "deleteFailed": "Failed to delete contractor"
+    },
+    "form": {
+      "addTitle": "Add New Contractor",
+      "editTitle": "Edit Contractor",
+      "loadingData": "Loading contractor data...",
+      "tabs": {
+        "basicInfo": "Basic Info",
+        "businessDetails": "Business Details (Optional)",
+        "financial": "Financial"
+      },
+      "sections": {
+        "contractorInformation": "Contractor Information",
+        "businessDetails": "Business Details (Optional)",
+        "financialInformation": "Financial Information"
+      },
+      "fields": {
+        "contractorName": "Contractor Name",
+        "contractorType": "Contractor Type",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "otherContactNo": "Other Contact No",
+        "companyName": "Company Name",
+        "contactPerson": "Contact Person",
+        "address": "Address",
+        "city": "City",
+        "country": "Country",
+        "taxNumber": "Tax Number (NTN)",
+        "website": "Website",
+        "officeAddress": "Office Address",
+        "notes": "Notes",
+        "specializations": "Specializations",
+        "selectContractor": "Select Contractor",
+        "status": "Status"
+      },
+      "placeholders": {
+        "enterContractorName": "Enter contractor name",
+        "selectContractorType": "Select contractor type",
+        "contractorEmail": "contractor@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "Alternative contact number",
+        "companyName": "Company name",
+        "contactPersonName": "Contact person name",
+        "completeAddress": "Complete address",
+        "selectCity": "Select city",
+        "country": "Country",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "Complete office address",
+        "additionalNotes": "Additional notes about the contractor",
+        "addSpecialization": "Add a specialization",
+        "selectContractor": "Select contractor (optional)"
+      },
+      "types": {
+        "individual": "Individual",
+        "business": "Business"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "blocked": "Blocked"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "add": "Add Contractor",
+        "update": "Update Contractor",
+        "saving": "Saving...",
+        "addSpecialization": "Add Specialization"
+      }
+    },
+    "detail": {
+      "loading": "Loading contractor details...",
+      "notFound": "Contractor not found",
+      "backToContractors": "Back to Contractors",
+      "edit": "Edit",
+      "delete": "Delete",
+      "sections": {
+        "basicInformation": "Basic Information",
+        "addressInformation": "Address Information",
+        "specializations": "Specializations",
+        "systemInformation": "System Information"
+      },
+      "fields": {
+        "companyName": "Company Name",
+        "type": "Type",
+        "category": "Category",
+        "industry": "Industry",
+        "email": "Email",
+        "phone": "Phone",
+        "alternatePhone": "Alternate Phone",
+        "website": "Website",
+        "notProvided": "Not provided",
+        "fullAddress": "Full Address",
+        "city": "City",
+        "country": "Country",
+        "createdAt": "Created At",
+        "lastUpdated": "Last Updated",
+        "createdBy": "Created By",
+        "lastUpdatedBy": "Last Updated By"
+      }
+    }
+  },
+  "Director": {
+    "title": "Director Management",
+    "subtitle": "Manage your directors, view details, and track relationships",
+    "addDirector": "Add Director",
+    "editDirector": "Edit Director",
+    "deleteDirector": "Delete Director",
+    "viewDirector": "View Director",
+    "stats": {
+      "totalDirectors": "Total Directors",
+      "activeDirectors": "Active Directors",
+      "businessDirectors": "Business Directors",
+      "individualDirectors": "Individual Directors"
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "status": "Status",
+      "searchPlaceholder": "Search directors...",
+      "emptyMessage": "No directors found. Get started by adding your first director."
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "blocked": "Blocked"
+    },
+    "deleteConfirmation": {
+      "title": "Delete Director",
+      "description": "Are you sure you want to delete {name}? This action cannot be undone and will permanently remove all director data including relationships and history.",
+      "cancel": "Cancel",
+      "confirm": "Delete Director"
+    },
+    "messages": {
+      "directorAdded": "Director added successfully",
+      "directorUpdated": "Director updated successfully",
+      "directorDeleted": "Director deleted successfully",
+      "addFailed": "Failed to add director",
+      "updateFailed": "Failed to update director",
+      "deleteFailed": "Failed to delete director"
+    }
+  },
+  "Till": {
+    "title": "Till Management",
+    "subtitle": "Track cash flow, manage transactions, and monitor account balances",
+    "addEntry": "Add Transaction",
+    "editEntry": "Edit Entry",
+    "deleteEntry": "Delete Entry",
+    "viewEntry": "View Entry",
+    "loading": "Loading till data",
+    "export": "Export",
+    "exporting": "Exporting...",
+    "stats": {
+      "totalEntries": "Total Transactions",
+      "todayEntries": "Today Entries",
+      "totalAmount": "Total Balance",
+      "cashAmount": "Cash in Hand"
+    },
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "description": "Description",
+      "category": "Category",
+      "status": "Status",
+      "searchPlaceholder": "Search transactions...",
+      "emptyMessage": "No transactions found. Get started by adding your first transaction."
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "income": "Income",
+      "expense": "Expense",
+      "transfer": "Transfer"
+    },
+    "deleteConfirmation": {
+      "title": "Delete Entry",
+      "description": "Are you sure you want to delete this entry? This action cannot be undone and will permanently remove the entry data.",
+      "cancel": "Cancel",
+      "confirm": "Delete Entry"
+    },
+    "messages": {
+      "entryAdded": "Entry added successfully",
+      "entryUpdated": "Entry updated successfully",
+      "entryDeleted": "Entry deleted successfully",
+      "addFailed": "Failed to add entry",
+      "updateFailed": "Failed to update entry",
+      "deleteFailed": "Failed to delete entry"
+    }
+  },
+  "Quotation": {
+    "management": {
+      "title": "Quotations",
+      "subtitle": "Manage customer quotations and proposals",
+      "newQuotation": "New Quotation",
+      "loading": "Loading quotations...",
+      "emptyMessage": "No quotations found. Get started by creating your first quotation.",
+      "stats": {
+        "totalQuotations": "Total Quotations",
+        "totalValue": "Total Value",
+        "accepted": "Accepted",
+        "pending": "Pending"
+      },
+      "deleteDialog": {
+        "title": "Delete Quotation",
+        "description": "Are you sure you want to delete this quotation? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete Quotation"
+      },
+      "convertDialog": {
+        "title": "Convert Quotation to Invoice",
+        "description": "Are you sure you want to convert this quotation to an invoice? This action will create a new invoice based on the quotation details and cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Convert to Invoice"
+      }
+    },
+    "form": {
+      "createTitle": "Create Quotation",
+      "editTitle": "Edit Quotation",
+      "quotation": "QUOTATION",
+      "date": "Date",
+      "quoteNumber": "Quote #",
+      "autoGenerated": "Auto-generated",
+      "billTo": "Bill To:",
+      "selectCustomer": "Select customer",
+      "validUntil": "Valid Until:",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter quotation description...",
+      "quotationItems": "Quotation Items",
+      "addItem": "Add Item",
+      "item": "Item",
+      "remove": "Remove",
+      "fields": {
+        "description": "Description",
+        "descriptionPlaceholder": "Enter item description",
+        "type": "Type",
+        "length": "Length",
+        "width": "Width",
+        "totalSize": "Total Size",
+        "size": "Size (sq.ft)",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "fixedAmount": "Fixed Amount",
+        "total": "Total"
+      },
+      "types": {
+        "lengthWidth": "Length × Width",
+        "totalSize": "Total Size",
+        "quantityOnly": "Quantity Only",
+        "fixedAmount": "Fixed Amount"
+      },
+      "attachments": "Attachments",
+      "uploadFiles": "Upload Files",
+      "pendingUpload": "Pending Upload",
+      "pending": "Pending",
+      "existingAttachments": "Existing Attachments",
+      "noFilesAttached": "No files attached. Click \"Upload Files\" to add attachments.",
+      "financialSummary": "Financial Summary",
+      "subTotal": "Sub Total:",
+      "tax": "Tax:",
+      "discount": "Discount:",
+      "termsNotes": "Terms & Notes",
+      "termsConditions": "Terms & Conditions",
+      "specialNotes": "Special Notes",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saving": "Saving...",
+      "createQuotation": "Create Quotation",
+      "updateQuotation": "Update Quotation"
+    },
+    "detail": {
+      "title": "Quotation Details",
+      "print": "Print",
+      "close": "Close",
+      "loading": "Loading quotation details...",
+      "quotationNumber": "Quotation Number",
+      "customer": "Customer",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "status": "Status",
+      "totalAmount": "Total Amount",
+      "description": "Description",
+      "items": "Items",
+      "financialSummary": "Financial Summary",
+      "subtotal": "Subtotal",
+      "taxAmount": "Tax Amount",
+      "discount": "Discount",
+      "notes": "Notes",
+      "termsConditions": "Terms & Conditions",
+      "attachments": "Attachments",
+      "download": "Download"
+    }
+  },
+  "Invoice": {
+    "title": "Invoice Management",
+    "subtitle": "Create, manage, and track your invoices",
+    "createInvoice": "Create Invoice",
+    "editInvoice": "Edit Invoice",
+    "viewInvoice": "View Invoice",
+    "deleteInvoice": "Delete Invoice",
+    "printInvoice": "Print Invoice",
+    "downloadInvoice": "Download Invoice",
+    "sendInvoice": "Send Invoice",
+    "stats": {
+      "totalInvoices": "Total Invoices",
+      "pendingInvoices": "Pending Invoices",
+      "paidInvoices": "Paid Invoices",
+      "overdueInvoices": "Overdue Invoices"
+    },
+    "table": {
+      "invoiceNumber": "Invoice #",
+      "customer": "Customer",
+      "amount": "Amount",
+      "status": "Status",
+      "date": "Date",
+      "dueDate": "Due Date",
+      "actions": "Actions",
+      "searchPlaceholder": "Search invoices...",
+      "emptyMessage": "No invoices found. Create your first invoice to get started."
+    },
+    "filters": {
+      "allStatus": "All Status",
+      "draft": "Draft",
+      "sent": "Sent",
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "cancelled": "Cancelled"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "sent": "Sent",
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "cancelled": "Cancelled"
+    },
+    "form": {
+      "createTitle": "Create Invoice",
+      "editTitle": "Edit Invoice",
+      "loadingData": "Loading invoice data...",
+      "sections": {
+        "header": "Invoice Header",
+        "customerInfo": "Customer Information",
+        "invoiceItems": "Invoice Items",
+        "attachments": "Attachments",
+        "financialSummary": "Financial Summary",
+        "termsNotes": "Terms & Notes"
+      },
+      "fields": {
+        "customer": "Customer",
+        "description": "Description",
+        "itemDescription": "Item Description",
+        "itemType": "Item Type",
+        "length": "Length",
+        "width": "Width",
+        "totalSize": "Total Size",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "fixedAmount": "Fixed Amount",
+        "total": "Total",
+        "subtotal": "Sub Total",
+        "taxAmount": "Tax Amount",
+        "discountAmount": "Discount Amount",
+        "advanceAmount": "Advance Amount",
+        "totalAmount": "Total Amount",
+        "terms": "Terms & Conditions",
+        "notes": "Special Notes"
+      },
+      "placeholders": {
+        "selectCustomer": "Select customer",
+        "enterDescription": "Enter invoice description...",
+        "enterItemDescription": "Enter item description",
+        "selectItemType": "Select item type",
+        "enterLength": "0",
+        "enterWidth": "0",
+        "enterTotalSize": "0",
+        "enterQuantity": "1",
+        "enterUnitPrice": "0.00",
+        "enterFixedAmount": "0.00",
+        "enterTaxAmount": "0.00",
+        "enterDiscountAmount": "0.00",
+        "enterAdvanceAmount": "0.00",
+        "enterTerms": "Enter terms and conditions...",
+        "enterNotes": "Enter special notes..."
+      },
+      "itemTypes": {
+        "lengthWidth": "Length × Width",
+        "totalSize": "Total Size",
+        "quantityOnly": "Quantity Only",
+        "fixedAmount": "Fixed Amount"
+      },
+      "actions": {
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "uploadFiles": "Upload Files",
+        "cancel": "Cancel",
+        "save": "Save Invoice",
+        "update": "Update Invoice",
+        "saving": "Saving...",
+        "create": "Create Invoice"
+      }
+    },
+    "deleteConfirmation": {
+      "title": "Delete Invoice",
+      "description": "Are you sure you want to delete invoice {invoiceNumber}? This action cannot be undone and will permanently remove the invoice data.",
+      "cancel": "Cancel",
+      "confirm": "Delete Invoice"
+    },
+    "messages": {
+      "invoiceCreated": "Invoice created successfully",
+      "invoiceUpdated": "Invoice updated successfully",
+      "invoiceDeleted": "Invoice deleted successfully",
+      "createFailed": "Failed to create invoice",
+      "updateFailed": "Failed to update invoice",
+      "deleteFailed": "Failed to delete invoice",
+      "noFilesAttached": "No files attached. Click Upload Files to add attachments.",
+      "pendingUpload": "Pending Upload",
+      "existingAttachments": "Existing Attachments",
+      "invoiceSaved": "Invoice saved successfully",
+      "invoiceApproved": "Invoice approved successfully",
+      "approveFailed": "Failed to approve invoice",
+      "fetchFailed": "Failed to fetch invoice",
+      "noInvoiceSelected": "No invoice selected",
+      "printOpened": "Print dialog opened",
+      "printFailed": "Failed to open print dialog",
+      "downloadSuccess": "File {name} downloaded successfully",
+      "downloadFailed": "Failed to download file"
+    },
+    "loading": {
+      "invoices": "Loading invoices..."
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "approve": "Approve",
+      "print": "Print",
+      "close": "Close"
+    },
+    "details": {
+      "title": "Invoice Details",
+      "invoiceNumber": "Invoice Number",
+      "customer": "Customer",
+      "phone": "Phone",
+      "email": "Email",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "totalAmount": "Total Amount",
+      "description": "Description",
+      "items": "Items",
+      "notSet": "Not set",
+      "loadingDetails": "Loading invoice details..."
+    }
+  },
+  "Settings": {
+    "title": "Settings",
+    "subtitle": "Manage your application settings and preferences",
+    "general": "General Settings",
+    "profile": "Profile Settings",
+    "security": "Security Settings",
+    "notifications": "Notification Settings",
+    "language": "Language Settings",
+    "theme": "Theme Settings",
+    "sections": {
+      "companyInfo": "Company Information",
+      "userProfile": "User Profile",
+      "securitySettings": "Security Settings",
+      "notificationSettings": "Notification Settings",
+      "languageSettings": "Language Settings",
+      "themeSettings": "Theme Settings"
+    },
+    "fields": {
+      "companyName": "Company Name",
+      "companyAddress": "Company Address",
+      "companyPhone": "Company Phone",
+      "companyEmail": "Company Email",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "language": "Language",
+      "theme": "Theme"
+    },
+    "placeholders": {
+      "enterCompanyName": "Enter company name",
+      "enterCompanyAddress": "Enter company address",
+      "enterCompanyPhone": "Enter company phone",
+      "enterCompanyEmail": "Enter company email",
+      "enterFirstName": "Enter first name",
+      "enterLastName": "Enter last name",
+      "enterEmail": "Enter email",
+      "enterPhone": "Enter phone",
+      "enterCurrentPassword": "Enter current password",
+      "enterNewPassword": "Enter new password",
+      "enterConfirmPassword": "Confirm new password",
+      "selectLanguage": "Select language",
+      "selectTheme": "Select theme"
+    },
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "actions": {
+      "save": "Save Settings",
+      "cancel": "Cancel",
+      "reset": "Reset to Default",
+      "saving": "Saving...",
+      "update": "Update Settings"
+    },
+    "messages": {
+      "settingsSaved": "Settings saved successfully",
+      "settingsUpdated": "Settings updated successfully",
+      "settingsReset": "Settings reset to default",
+      "saveFailed": "Failed to save settings",
+      "updateFailed": "Failed to update settings",
+      "resetFailed": "Failed to reset settings"
+    }
+  },
+  "DailyEntry": {
+    "form": {
+      "addTitle": "Add New Entry",
+      "editTitle": "Edit Entry",
+      "loading": "Loading data",
+      "tabs": {
+        "basicInfo": "Basic Info",
+        "details": "Additional Details"
+      },
+      "sections": {
+        "entryInformation": "Entry Information",
+        "additionalDetails": "Additional Details"
+      },
+      "fields": {
+        "entryType": "Entry Type",
+        "amount": "Amount",
+        "description": "Description",
+        "date": "Date",
+        "category": "Category",
+        "customer": "Customer",
+        "vendor": "Vendor",
+        "employee": "Employee",
+        "director": "Director",
+        "location": "Location",
+        "notes": "Notes",
+        "tags": "Tags"
+      },
+      "placeholders": {
+        "selectEntryType": "Select entry type",
+        "enterAmount": "Enter amount",
+        "enterDescription": "Enter description",
+        "selectDate": "Select date",
+        "selectCategory": "Select category",
+        "selectCustomer": "Select customer",
+        "selectVendor": "Select vendor",
+        "selectEmployee": "Select employee",
+        "selectDirector": "Select director",
+        "enterLocation": "Enter location",
+        "enterNotes": "Enter notes",
+        "addTag": "Add a tag"
+      },
+      "types": {
+        "income": "Income",
+        "expense": "Expense",
+        "transfer": "Transfer"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "add": "Add Entry",
+        "update": "Update Entry",
+        "saving": "Saving...",
+        "addTag": "Add Tag"
+      }
+    }
+  },
+  "Finance": {
+    "invoices": {
+      "title": "Invoices",
+      "subtitle": "Manage customer invoices and track payments",
+      "newInvoice": "New Invoice",
+      "stats": {
+        "totalInvoices": "Total Invoices",
+        "totalValue": "Total Value",
+        "paid": "Paid",
+        "pending": "Pending"
+      },
+      "table": {
+        "invoiceNumber": "Invoice #",
+        "customer": "Customer",
+        "description": "Description",
+        "totalAmount": "Total Amount",
+        "status": "Status",
+        "created": "Created",
+        "searchPlaceholder": "Search invoices...",
+        "emptyMessage": "No invoices found. Get started by creating your first invoice."
+      },
+      "actions": {
+        "view": "View",
+        "edit": "Edit Invoice",
+        "delete": "Delete Invoice",
+        "approve": "Approve Invoice",
+        "print": "Print",
+        "close": "Close",
+        "download": "Download"
+      },
+      "details": {
+        "title": "Invoice Details",
+        "invoiceNumber": "Invoice Number",
+        "customer": "Customer",
+        "phone": "Phone",
+        "email": "Email",
+        "status": "Status",
+        "dueDate": "Due Date",
+        "totalAmount": "Total Amount",
+        "description": "Description",
+        "items": "Items",
+        "summary": "Summary",
+        "notes": "Notes",
+        "termsConditions": "Terms & Conditions",
+        "attachments": "Attachments",
+        "subtotal": "Subtotal",
+        "taxAmount": "Tax Amount",
+        "discountAmount": "Discount Amount",
+        "advanceAmount": "Advance Amount",
+        "previousBalance": "Previous Balance",
+        "totalAmountFinal": "Total Amount"
+      },
+      "items": {
+        "description": "Description",
+        "type": "Type",
+        "length": "Length",
+        "width": "Width",
+        "quantity": "Quantity",
+        "totalSize": "Total Size",
+        "unitPrice": "Unit Price",
+        "fixedAmount": "Fixed Amount",
+        "total": "Total"
+      },
+      "confirmations": {
+        "delete": {
+          "title": "Delete Invoice",
+          "description": "Are you sure you want to delete this invoice? This action cannot be undone.",
+          "confirm": "Delete Invoice"
+        },
+        "approve": {
+          "title": "Approve Invoice",
+          "description": "Are you sure you want to approve this invoice? This will change the status from draft to sent.",
+          "confirm": "Approve Invoice"
+        }
+      },
+      "messages": {
+        "invoiceSaved": "Invoice saved successfully!",
+        "invoiceDeleted": "Invoice deleted successfully",
+        "invoiceApproved": "Invoice approved successfully",
+        "deleteFailed": "Failed to delete invoice",
+        "approveFailed": "Failed to approve invoice",
+        "fetchFailed": "Failed to fetch invoice details",
+        "printOpened": "Print window opened successfully",
+        "printFailed": "Failed to open print window. Please try again.",
+        "downloadSuccess": "Downloading {name}",
+        "downloadFailed": "Failed to download attachment",
+        "noInvoiceSelected": "No invoice selected for printing"
+      },
+      "loading": {
+        "invoices": "Loading invoices...",
+        "details": "Loading invoice details..."
+      }
+    }
+  },
+  "Employee": {
+    "form": {
+      "addTitle": "Add New Employee",
+      "editTitle": "Edit Employee",
+      "tabs": {
+        "basicInfo": "Basic Info",
+        "employment": "Employment",
+        "emergency": "Emergency",
+        "experience": "Experience",
+        "documents": "Documents"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "add": "Add Employee",
+        "update": "Update Employee",
+        "saving": "Saving..."
+      },
+      "basicInfo": {
+        "title": "Personal Information",
+        "uploadPhoto": "Upload Photo",
+        "photoDescription": "Upload a professional photo for the employee profile. Recommended size: 400x400 pixels.",
+        "fields": {
+          "fullName": "Full Name",
+          "cnic": "CNIC",
+          "age": "Age",
+          "cast": "Cast",
+          "study": "Study/Education",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "address": "Address Line 1",
+          "address2": "Address Line 2"
+        },
+        "placeholders": {
+          "fullName": "Enter full name",
+          "cnic": "12345-1234567-1",
+          "age": "25",
+          "cast": "Enter cast",
+          "study": "e.g., BSc Computer Science",
+          "email": "employee@pakbiz.com",
+          "phone": "+92-300-1234567",
+          "address": "Complete address with city",
+          "address2": "Additional address information (optional)"
+        }
+      },
+      "employment": {
+        "title": "Employment Details",
+        "fields": {
+          "employeeId": "Employee ID",
+          "position": "Position",
+          "department": "Department",
+          "salary": "Monthly Salary (PKR)",
+          "joinDate": "Join Date",
+          "bankAccount": "Bank Account Number",
+          "status": "Employment Status"
+        },
+        "placeholders": {
+          "employeeId": "Click Generate or enter manually",
+          "position": "Job title/position",
+          "department": "Select department",
+          "salary": "50000",
+          "bankAccount": "1234567890"
+        },
+        "actions": {
+          "generate": "Generate"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "terminated": "Terminated"
+        }
+      },
+      "emergency": {
+        "title": "Emergency Contacts (Optional)",
+        "description": "Add emergency contact information. This section is optional but recommended.",
+        "contactTitle": "Emergency Contact",
+        "fields": {
+          "name": "Contact Name",
+          "phone": "Contact Phone",
+          "relation": "Relation",
+          "occupation": "Occupation"
+        },
+        "placeholders": {
+          "name": "Emergency contact name",
+          "phone": "+92-300-1234567",
+          "relation": "Select relation",
+          "occupation": "e.g., Teacher, Engineer, Business"
+        },
+        "relations": {
+          "father": "Father",
+          "mother": "Mother",
+          "spouse": "Spouse",
+          "brother": "Brother",
+          "sister": "Sister",
+          "son": "Son",
+          "daughter": "Daughter",
+          "friend": "Friend",
+          "other": "Other"
+        },
+        "actions": {
+          "add": "Add Another Emergency Contact"
+        }
+      },
+      "experience": {
+        "title": "Work Experience (Optional)",
+        "description": "Add previous work experience. This section is optional and can be filled later.",
+        "experienceTitle": "Experience",
+        "fields": {
+          "title": "Job Title",
+          "address": "Company Address",
+          "from": "From Date",
+          "to": "To Date",
+          "description": "Job Description"
+        },
+        "placeholders": {
+          "title": "e.g., Software Engineer",
+          "address": "Company address",
+          "description": "Describe your role and responsibilities"
+        },
+        "actions": {
+          "add": "Add Another Experience"
+        }
+      },
+      "documents": {
+        "title": "Document Upload (Optional)",
+        "description": "Upload employee documents such as CNIC, CV, certificates, etc. This section is optional.",
+        "fields": {
+          "type": "Document type (e.g., CNIC, CV, Certificate)",
+          "file": "Choose file"
+        },
+        "existingFile": "Existing File",
+        "actions": {
+          "add": "Add Document Type"
+        }
+      }
+    },
+    "detail": {
+      "loading": "Loading Employee Details",
+      "loadingDescription": "Fetching employee information, attendance, expenses, and salary data...",
+      "errorLoading": "Error Loading Employee",
+      "tryAgain": "Try Again",
+      "notFound": "Employee Not Found",
+      "notFoundDescription": "The employee you are looking for does not exist or has been removed.",
+      "backToEmployees": "Back to Employees",
+      "print": "Print",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Are you sure you want to delete this employee? This action cannot be undone.",
+      "deleteSuccess": "Employee deleted successfully",
+      "deleteFailed": "Failed to delete employee",
+      "updateSuccess": "Employee updated successfully",
+      "updateFailed": "Failed to update employee",
+      "stats": {
+        "monthlySalary": "Monthly Salary",
+        "yearsOfService": "Years of Service",
+        "totalExpenses": "Total Expenses",
+        "attendanceRate": "Attendance Rate"
+      },
+      "tabs": {
+        "overview": "Overview",
+        "attendance": "Attendance",
+        "expenses": "Expenses",
+        "salary": "Salary"
+      },
+      "overview": {
+        "personalInfo": "Personal Information",
+        "employmentInfo": "Employment Information",
+        "workExperience": "Work Experience",
+        "emergencyContacts": "Emergency Contacts",
+        "noExperience": "No Work Experience",
+        "noExperienceDescription": "No work experience has been added for this employee.",
+        "fields": {
+          "employeeId": "Employee ID",
+          "cnic": "CNIC",
+          "age": "Age",
+          "years": "years",
+          "cast": "Cast",
+          "study": "Study/Education",
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address",
+          "department": "Department",
+          "position": "Position",
+          "joinDate": "Join Date",
+          "status": "Status",
+          "monthlySalary": "Monthly Salary",
+          "bankAccount": "Bank Account",
+          "jobTitle": "Job Title",
+          "companyAddress": "Company Address",
+          "fromDate": "From Date",
+          "toDate": "To Date",
+          "jobDescription": "Job Description"
+        }
+      },
+      "attendance": {
+        "title": "Attendance Record for",
+        "subtitle": "Monthly attendance for",
+        "month": "Month",
+        "year": "Year",
+        "selectMonth": "Select month",
+        "selectYear": "Select year",
+        "loading": "Loading Attendance Data",
+        "loadingDescription": "Fetching attendance records...",
+        "noRecords": "No Attendance Records",
+        "noRecordsDescription": "No attendance records have been found for",
+        "searchPlaceholder": "Search attendance...",
+        "columns": {
+          "date": "Date",
+          "day": "Day",
+          "checkIn": "Check In",
+          "checkOut": "Check Out",
+          "status": "Status",
+          "workingHours": "Working Hours",
+          "overtime": "Overtime",
+          "note": "Note"
+        },
+        "months": {
+          "january": "January",
+          "february": "February",
+          "march": "March",
+          "april": "April",
+          "may": "May",
+          "june": "June",
+          "july": "July",
+          "august": "August",
+          "september": "September",
+          "october": "October",
+          "november": "November",
+          "december": "December"
+        }
+      },
+      "expenses": {
+        "title": "Expenses for",
+        "subtitle": "Monthly expenses for",
+        "month": "Month",
+        "year": "Year",
+        "selectMonth": "Select month",
+        "selectYear": "Select year",
+        "loading": "Loading Expense Data",
+        "loadingDescription": "Fetching expense records...",
+        "noRecords": "No Expense Records",
+        "noRecordsDescription": "No expense records have been found for",
+        "searchPlaceholder": "Search expenses...",
+        "columns": {
+          "date": "Date",
+          "description": "Description",
+          "amount": "Amount",
+          "type": "Type",
+          "category": "Category",
+          "created": "Created"
+        }
+      },
+      "salary": {
+        "title": "Salary History for",
+        "subtitle": "Employee salary slips and payment history",
+        "loading": "Loading Salary Data",
+        "loadingDescription": "Fetching salary records...",
+        "noRecords": "No Salary Records",
+        "noRecordsDescription": "No salary records have been found for this employee.",
+        "searchPlaceholder": "Search salary records...",
+        "viewDetails": "View",
+        "columns": {
+          "monthYear": "Month/Year",
+          "basicSalary": "Basic Salary",
+          "overtime": "Overtime",
+          "grossSalary": "Gross Salary",
+          "netSalary": "Net Salary",
+          "status": "Status",
+          "generated": "Generated",
+          "actions": "Actions"
+        },
+        "detail": {
+          "title": "Salary Details",
+          "basicSalary": "Basic Salary",
+          "overtime": "Overtime",
+          "grossSalary": "Gross Salary",
+          "netSalary": "Net Salary",
+          "deductions": "Deductions",
+          "totalDeductions": "Total Deductions:",
+          "paymentStatus": "Payment Status",
+          "paidOn": "Paid on:",
+          "salaryPeriod": "Salary Period",
+          "generated": "Generated:",
+          "remarks": "Remarks",
+          "loanId": "Loan ID:",
+          "installment": "Installment:"
+        }
+      },
+      "print": {
+        "title": "Employee Profile - Print View",
+        "companyName": "STAFFLY",
+        "companyDescription": "Complete Business Management Solution",
+        "profileTitle": "Employee Profile",
+        "generatedOn": "Generated on",
+        "at": "at",
+        "generatedBy": "This document is generated by Staffly HR Management System"
+      }
+    }
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "add": "Add",
+    "update": "Update",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "print": "Print",
+    "download": "Download",
+    "upload": "Upload",
+    "select": "Select",
+    "clear": "Clear",
+    "reset": "Reset",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "continue": "Continue",
+    "skip": "Skip",
+    "required": "Required",
+    "optional": "Optional",
+    "all": "All",
+    "none": "None",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "noData": "No data available",
+    "noResults": "No results found",
+    "tryAgain": "Try again",
+    "refresh": "Refresh",
+    "reload": "Reload",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "draft": "Draft",
+      "sent": "Sent",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "blocked": "Blocked"
+    }
+  },
+  "Attendance": {
+    "page": {
+      "markAttendance": "Mark Attendance",
+      "backToPayroll": "Back to Payroll"
+    },
+    "management": {
+      "title": "Attendance Management",
+      "markFor": "Mark attendance for",
+      "editFor": "Edit attendance for",
+      "saved": "saved",
+      "updated": "updated",
+      "successfully": "successfully! Dialog will close in 1.5 seconds...",
+      "bulkEdit": "Bulk Edit",
+      "saveAttendance": "Save Attendance",
+      "updateAttendance": "Update Attendance",
+      "saving": "Saving...",
+      "success": "Success!",
+      "export": "Export",
+      "selectAll": "Select All",
+      "clearSelection": "Clear Selection",
+      "applyToSelected": "Apply to {count} Selected",
+      "cancel": "Cancel",
+      "bulkEditTitle": "Bulk Edit Selected Employees",
+      "selected": "selected",
+      "checkInTime": "Check In Time",
+      "checkOutTime": "Check Out Time",
+      "leaveEmptyToSkip": "Leave empty to skip",
+      "bonus": "Bonus",
+      "notes": "Notes",
+      "bulkEditNote1": "• Leave fields empty to skip updating that field for selected employees",
+      "bulkEditNote2": "• Working hours will be automatically calculated if both check-in and check-out times are provided",
+      "table": {
+        "employee": "Employee",
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "workingHours": "Working Hours",
+        "overtime": "Overtime",
+        "status": "Status",
+        "bonus": "Bonus",
+        "notes": "Notes",
+        "optionalNotes": "Optional notes"
+      },
+      "status": {
+        "present": "Present",
+        "absent": "Absent",
+        "late": "Late",
+        "halfDay": "Half Day",
+        "overtime": "Overtime",
+        "leave": "Leave",
+        "holiday": "Holiday"
+      },
+      "errors": {
+        "selectEmployees": "Please select employees to edit",
+        "noRecordsToSave": "No attendance records to save",
+        "saveFailed": "Failed to save attendance",
+        "updateFailed": "Failed to update attendance"
+      }
+    },
+    "detail": {
+      "title": "Attendance Details",
+      "backToAttendance": "Back to Attendance",
+      "loading": "Loading attendance details...",
+      "failedToLoad": "Failed to Load Data",
+      "retry": "Retry",
+      "employeeAttendanceDetails": "Employee Attendance Details",
+      "searchPlaceholder": "Search employees...",
+      "noRecords": "No attendance records found for this date",
+      "stats": {
+        "totalEmployees": "Total Employees",
+        "present": "Present",
+        "absent": "Absent",
+        "attendanceRate": "Attendance Rate"
+      },
+      "columns": {
+        "employee": "Employee",
+        "employeeId": "Employee ID",
+        "department": "Department",
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "status": "Status",
+        "workingHours": "Working Hours",
+        "overtime": "Overtime",
+        "notes": "Notes"
+      },
+      "actions": {
+        "editAttendance": "Edit Attendance"
+      }
+    }
+  },
+  "Salary": {
+    "page": {
+      "title": "Salary Slips",
+      "subtitle": "View, manage, and disburse employee salary slips",
+      "backToPayroll": "Back to Payroll",
+      "exportAll": "Export All",
+      "generateBatch": "Generate Batch"
+    },
+    "management": {
+      "title": "Salary Management",
+      "month": "Month",
+      "year": "Year",
+      "selectMonth": "Select month",
+      "selectYear": "Select year",
+      "loading": "Loading Salary Data",
+      "loadingDescription": "Fetching salary history...",
+      "noRecords": "No Salary Records",
+      "noRecordsDescription": "No salary records have been found for {month} {year}.",
+      "searchPlaceholder": "Search salary slips...",
+      "stats": {
+        "totalBasicSalary": "Total Basic Salary",
+        "totalNetSalary": "Total Net Salary",
+        "pendingPayments": "Pending Payments",
+        "paidSalaries": "Paid Salaries"
+      },
+      "columns": {
+        "employeeName": "Employee Name",
+        "employeeId": "Employee ID",
+        "department": "Department",
+        "basicSalary": "Basic Salary",
+        "overtime": "Overtime",
+        "grossSalary": "Gross Salary",
+        "netSalary": "Net Salary",
+        "status": "Status",
+        "generated": "Generated",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "disburse": "Disburse"
+      },
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      }
+    },
+    "detail": {
+      "title": "Salary Details",
+      "employeeInfo": "Employee Information",
+      "salaryBreakdown": "Salary Breakdown",
+      "paymentInfo": "Payment Information",
+      "remarks": "Remarks",
+      "employeeName": "Employee Name",
+      "employeeId": "Employee ID",
+      "department": "Department",
+      "position": "Position",
+      "email": "Email",
+      "salaryPeriod": "Salary Period",
+      "basicSalary": "Basic Salary",
+      "overtimeAmount": "Overtime Amount",
+      "grossSalary": "Gross Salary",
+      "deductions": "Deductions",
+      "noDeductions": "No deductions",
+      "totalDeductions": "Total Deductions",
+      "netSalary": "Net Salary",
+      "status": "Status",
+      "paymentDate": "Payment Date",
+      "notPaidYet": "Not paid yet",
+      "generatedOn": "Generated On",
+      "lastUpdated": "Last Updated",
+      "paidOn": "Paid on:"
+    },
+    "disburse": {
+      "title": "Disburse Salary",
+      "paymentSource": "Payment Source",
+      "selectPaymentSource": "Select payment source",
+      "till": "Till",
+      "director": "Director",
+      "selectDirector": "Select Director",
+      "paymentMethod": "Payment Method",
+      "cash": "Cash",
+      "bank": "Bank",
+      "cancel": "Cancel",
+      "disburse": "Disburse Salary",
+      "processing": "Processing...",
+      "success": "Salary disbursed successfully",
+      "failed": "Failed to disburse salary"
+    }
+  }
+}

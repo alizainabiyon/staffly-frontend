@@ -1,0 +1,1727 @@
+{
+    "HomePage": {
+        "title": "اسٹافلی",
+        "navbar": {
+            "features": "خصوصیات",
+            "modules": "ماڈیولز",
+            "pricing": "قیمتیں",
+            "reviews": "جائزے",
+            "login": "لاگ اِن",
+            "languagePlaceholder": "زبان منتخب کریں"
+        }
+    },
+    "Auth": {
+        "login": {
+            "title": "خوش آمدید",
+            "description": "کامل بینس کاروباری مینجمنٹ حل",
+            "subtitle": "اپنے اکاؤنٹ میں سائن ان کریں",
+            "emailLabel": "ای میل ایڈریس",
+            "emailPlaceholder": "اپنا ای میل درج کریں",
+            "passwordLabel": "پاس ورڈ",
+            "passwordPlaceholder": "اپنا پاس ورڈ درج کریں",
+            "signIn": "سائن ان",
+            "signingIn": "سائن ان ہو رہا ہے...",
+            "demoCredentials": "ڈیمو کریڈنشلز:",
+            "loginSuccess": "کامیابی سے لاگ ان!",
+            "loginFailed": "لاگ ان نہیں ہو سکا۔ اپنے کریڈنشلز چیک کریں۔",
+            "validation": {
+                "emailRequired": "ای میل درکار ہے",
+                "emailInvalid": "غلط ای میل فارمیٹ",
+                "passwordRequired": "پاس ورڈ درکار ہے",
+                "passwordMinLength": "پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے"
+            }
+        }
+    },
+    "Dashboard": {
+        "title": "ڈیش بورڈ",
+        "subtitle": "خوش آمدید! دیکھیں آپ کے کاروبار میں کیا ہو رہا ہے۔",
+        "stats": {
+            "incomingFromCustomers": "کسٹمرز سے آنے والی رقم",
+            "outgoingToVendors": "وینڈرز کو جانے والی رقم",
+            "totalInTill": "ٹل میں کل رقم",
+            "cashInTill": "ٹل میں نقد",
+            "pending": "زیر التواء",
+            "due": "باقی",
+            "available": "دستیاب",
+            "cash": "نقد"
+        },
+        "charts": {
+            "revenueVsExpenses": "آمدنی بمقابلہ اخراجات",
+            "employeeDistribution": "ملازمین کی تقسیم",
+            "revenue": "آمدنی",
+            "expenses": "اخراجات"
+        },
+        "recentActivities": "حالیہ سرگرمیاں",
+        "activities": {
+            "newInvoice": "{company} کے لیے نیا انوائس بنایا گیا",
+            "payrollProcessed": "{count} ملازمین کا ماہانہ پے رول پروسیس کیا گیا",
+            "newCustomer": "نیا کسٹمر رجسٹریشن: {company}",
+            "paymentOverdue": "ادائیگی کی تاریخ گزر گئی: {company}",
+            "timeAgo": {
+                "hours": "{count} گھنٹے پہلے",
+                "days": "{count} دن پہلے"
+            }
+        },
+        "error": {
+            "loadingData": "ڈیٹا لوڈ کرنے میں خرابی"
+        }
+    },
+    "Navigation": {
+        "dashboard": "ڈیش بورڈ",
+        "payroll": "پے رول",
+        "employees": "ملازم",
+        "salarySlips": "تنخواہ کی رسیدیں",
+        "attendance": "حاضری",
+        "loans": "قرضے",
+        "crm": "سی آر ایم",
+        "customers": "کسٹمرز",
+        "contractors": "ٹھیکیدار",
+        "vendors": "وینڈرز",
+        "ledger": "لیجر",
+        "finance": "مالیات",
+        "quotations": "اقتباسات",
+        "invoices": "انوائسز",
+        "vendorOrders": "وینڈر آرڈرز",
+        "directors": "ڈائریکٹرز",
+        "till": "ٹل",
+        "entries": "انٹریز",
+        "todayEntries": "آج کی انٹریز",
+        "allEntries": "تمام انٹریز",
+        "reports": "رپورٹس",
+        "expenseReport": "خرچ کی رپورٹ",
+        "settings": "سیٹنگز",
+        "logout": "لاگ آؤٹ",
+        "loggedOutSuccessfully": "کامیابی سے لاگ آؤٹ",
+        "company": "کمپنی"
+    },
+    "Payroll": {
+        "title": "پے رول مینجمنٹ",
+        "subtitle": "ملازمین، تنخواہ، حاضری اور مزید کو منظم کرنے کا جامع نظام",
+        "modules": {
+            "employeeManagement": {
+                "title": "ملازم مینجمنٹ",
+                "description": "ملازم کی معلومات کو منظم کریں، نئے ملازم شامل کریں، اور تفصیلات دیکھیں",
+                "stats": "کل، فعال"
+            },
+            "salarySlips": {
+                "title": "تنخواہ کی رسیدیں",
+                "description": "ملازمین کی تنخواہ کی رسیدیں بنائیں، منظم کریں اور تقسیم کریں",
+                "stats": "ماہانہ پروسیسنگ"
+            },
+            "attendanceManagement": {
+                "title": "حاضری مینجمنٹ",
+                "description": "ملازمین کی حاضری، کام کے اوقات اور اوور ٹائم کو ٹریک کریں",
+                "stats": "روزانہ ٹریکنگ"
+            },
+            "loansAdvances": {
+                "title": "قرضے اور اڈوانس",
+                "description": "ملازمین کے قرضے، اڈوانس اور ادائیگی کے شیڈول کو منظم کریں",
+                "stats": "فعال قرضے"
+            }
+        },
+        "stats": {
+            "totalEmployees": "کل ملازم",
+            "activeEmployees": "فعال ملازم",
+            "monthlyPayroll": "ماہانہ پے رول",
+            "averageSalary": "اوسط تنخواہ"
+        },
+        "employees": {
+            "title": "ملازم مینجمنٹ",
+            "subtitle": "ملازم کی معلومات، تفصیلات اور ریکارڈ کو منظم کریں",
+            "backToPayroll": "پے رول پر واپس",
+            "addEmployee": "ملازم شامل کریں",
+            "stats": {
+                "totalEmployees": "کل ملازم",
+                "activeEmployees": "فعال ملازم",
+                "monthlyPayroll": "ماہانہ پے رول",
+                "averageSalary": "اوسط تنخواہ"
+            },
+            "table": {
+                "columns": {
+                    "name": "نام",
+                    "department": "محکمہ",
+                    "email": "ای میل",
+                    "phone": "فون",
+                    "joinDate": "شمولیت کی تاریخ",
+                    "salary": "تنخواہ"
+                },
+                "actions": {
+                    "viewDetails": "تفصیلات دیکھیں",
+                    "editEmployee": "ملازم میں ترمیم کریں",
+                    "deleteEmployee": "ملازم کو حذف کریں"
+                },
+                "emptyWithFilters": "کوئی ملازم آپ کے موجودہ فلٹرز سے میل نہیں کھاتا۔",
+                "emptyDefault": "اپنا پہلا ملازم شامل کر کے شروع کریں۔"
+            },
+            "messages": {
+                "addSuccess": "ملازم کامیابی سے شامل ہو گیا",
+                "updateSuccess": "ملازم کامیابی سے اپ ڈیٹ ہو گیا",
+                "deleteSuccess": "ملازم کامیابی سے حذف ہو گیا",
+                "deleteConfirm": "کیا آپ واقعی اس ملازم کو حذف کرنا چاہتے ہیں؟",
+                "addFailed": "ملازم شامل کرنے میں ناکام",
+                "updateFailed": "ملازم اپ ڈیٹ کرنے میں ناکام",
+                "deleteFailed": "ملازم حذف کرنے میں ناکام"
+            }
+        },
+        "quickActions": {
+            "title": "فوری کارروائیاں",
+            "addEmployee": "ملازم شامل کریں",
+            "markAttendance": "حاضری لگائیں",
+            "generateSalarySlip": "تنخواہ کی رسید بنائیں",
+            "processLoan": "قرضہ پروسیس کریں"
+        },
+        "recentActivity": {
+            "title": "حالیہ سرگرمی",
+            "welcome": "پے رول مینجمنٹ میں خوش آمدید",
+            "description": "اپنے پے رول آپریشنز کو مؤثر طریقے سے منظم کرنے کے لیے اوپر کے ماڈیولز استعمال کریں",
+            "manageEmployees": "ملازمین منظم کریں",
+            "trackAttendance": "حاضری ٹریک کریں"
+        },
+        "accessModule": "ماڈیول تک رسائی"
+    },
+  "CRM": {
+    "title": "کسٹمر مینجمنٹ",
+    "subtitle": "اپنے کسٹمرز کو منظم کریں، تفصیلات دیکھیں اور تعلقات کو ٹریک کریں",
+    "addCustomer": "کسٹمر شامل کریں",
+    "editCustomer": "کسٹمر میں ترمیم",
+    "deleteCustomer": "کسٹمر ڈیلیٹ کریں",
+    "viewCustomer": "کسٹمر دیکھیں",
+    "stats": {
+      "totalCustomers": "کل کسٹمرز",
+      "activeCustomers": "فعال کسٹمرز",
+      "businessCustomers": "کاروباری کسٹمرز",
+      "individualCustomers": "انفرادی کسٹمرز"
+    },
+    "table": {
+      "name": "نام",
+      "type": "قسم",
+      "company": "کمپنی",
+      "email": "ای میل",
+      "phone": "فون",
+      "address": "پتہ",
+      "status": "حالت",
+      "searchPlaceholder": "کسٹمرز تلاش کریں...",
+      "emptyMessage": "کوئی کسٹمر نہیں ملا۔ اپنا پہلا کسٹمر شامل کرکے شروع کریں۔"
+    },
+    "filters": {
+      "allStatus": "تمام حالتیں",
+      "active": "فعال",
+      "inactive": "غیر فعال",
+      "blocked": "بلاک"
+    },
+    "deleteConfirmation": {
+      "title": "کسٹمر ڈیلیٹ کریں",
+      "description": "کیا آپ واقعی {name} کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی اور تمام کسٹمر ڈیٹا کو مستقل طور پر ہٹا دے گی۔",
+      "cancel": "منسوخ",
+      "confirm": "کسٹمر ڈیلیٹ کریں"
+    },
+    "messages": {
+      "customerAdded": "کسٹمر کامیابی سے شامل ہوا",
+      "customerUpdated": "کسٹمر کامیابی سے اپڈیٹ ہوا",
+      "customerDeleted": "کسٹمر کامیابی سے ڈیلیٹ ہوا",
+      "addFailed": "کسٹمر شامل کرنے میں ناکامی",
+      "updateFailed": "کسٹمر اپڈیٹ کرنے میں ناکامی",
+      "deleteFailed": "کسٹمر ڈیلیٹ کرنے میں ناکامی"
+    },
+    "form": {
+      "addTitle": "نیا کسٹمر شامل کریں",
+      "editTitle": "کسٹمر میں ترمیم",
+      "loadingData": "کسٹمر کا ڈیٹا لوڈ ہو رہا ہے...",
+      "tabs": {
+        "basicInfo": "بنیادی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financial": "مالیات"
+      },
+      "sections": {
+        "customerInformation": "کسٹمر کی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financialInformation": "مالی معلومات"
+      },
+      "fields": {
+        "customerName": "کسٹمر کا نام",
+        "customerType": "کسٹمر کی قسم",
+        "emailAddress": "ای میل ایڈریس",
+        "phoneNumber": "فون نمبر",
+        "otherContactNo": "دوسرا رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPerson": "رابطہ شخص",
+        "address": "پتہ",
+        "city": "شہر",
+        "country": "ملک",
+        "taxNumber": "ٹیکس نمبر (NTN)",
+        "website": "ویب سائٹ",
+        "officeAddress": "دفتری پتہ",
+        "notes": "نوٹس",
+        "tags": "ٹیگز",
+        "selectContractor": "ٹھیکیدار منتخب کریں",
+        "status": "حالت"
+      },
+      "placeholders": {
+        "enterCustomerName": "کسٹمر کا نام درج کریں",
+        "selectCustomerType": "کسٹمر کی قسم منتخب کریں",
+        "customerEmail": "customer@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "متبادل رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPersonName": "رابطہ شخص کا نام",
+        "completeAddress": "مکمل پتہ",
+        "selectCity": "شہر منتخب کریں",
+        "country": "ملک",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "مکمل دفتری پتہ",
+        "additionalNotes": "کسٹمر کے بارے میں اضافی نوٹس",
+        "addTag": "ٹیگ شامل کریں",
+        "selectContractor": "ٹھیکیدار منتخب کریں (اختیاری)"
+      },
+      "types": {
+        "individual": "انفرادی",
+        "business": "کاروباری"
+      },
+      "statuses": {
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "blocked": "بلاک"
+      },
+      "actions": {
+        "cancel": "منسوخ",
+        "add": "کسٹمر شامل کریں",
+        "update": "کسٹمر اپڈیٹ کریں",
+        "saving": "محفوظ ہو رہا ہے...",
+        "addTag": "ٹیگ شامل کریں"
+      }
+    },
+    "detail": {
+      "loading": "کسٹمر کی تفصیلات لوڈ ہو رہی ہیں...",
+      "notFound": "کسٹمر نہیں ملا",
+      "backToCustomers": "کسٹمرز پر واپس",
+      "edit": "ترمیم",
+      "delete": "حذف کریں",
+      "company": "کمپنی",
+      "stats": {
+        "openingBalance": "ابتدائی بیلنس",
+        "remainingBalance": "باقی بیلنس"
+      },
+      "tabs": {
+        "overview": "کسٹمر کی معلومات",
+        "ledger": "مالی لیجر",
+        "invoices": "انوائسز",
+        "quotations": "کوٹیشنز"
+      },
+      "sections": {
+        "personalInformation": "ذاتی معلومات",
+        "addressInformation": "پتہ کی معلومات",
+        "additionalInformation": "اضافی معلومات",
+        "systemInformation": "سسٹم کی معلومات"
+      },
+      "fields": {
+        "fullName": "مکمل نام",
+        "status": "حیثیت",
+        "customerType": "کسٹمر کی قسم",
+        "company": "کمپنی",
+        "email": "ای میل",
+        "phone": "فون",
+        "otherContact": "دوسرا رابطہ",
+        "contactPerson": "رابطہ شخص",
+        "fullAddress": "مکمل پتہ",
+        "city": "شہر",
+        "country": "ملک",
+        "officeAddress": "دفتر کا پتہ",
+        "website": "ویب سائٹ",
+        "taxNumber": "ٹیکس نمبر",
+        "notes": "نوٹس",
+        "tags": "ٹیگز",
+        "createdAt": "بنایا گیا",
+        "lastUpdated": "آخری اپڈیٹ",
+        "createdBy": "بنانے والا",
+        "lastUpdatedBy": "آخری اپڈیٹ کرنے والا"
+      },
+      "ledger": {
+        "summary": "لیجر خلاصہ",
+        "transactions": "لین دین",
+        "noLedgerData": "کوئی لیجر ڈیٹا نہیں",
+        "noLedgerDescription": "اس کسٹمر کے پاس ابھی تک کوئی مالی لیجر ڈیٹا نہیں ہے۔",
+        "transactionsFor": "{name} کے لین دین",
+        "transactionsSubtitle": "مالی لین دین کی تاریخ اور تفصیلات",
+        "searchPlaceholder": "لین دین تلاش کریں...",
+        "noTransactions": "اس کسٹمر کے لیے کوئی لین دین نہیں ملا۔"
+      },
+      "invoices": {
+        "title": "کسٹمر انوائسز",
+        "noInvoices": "کوئی انوائس نہیں",
+        "noInvoicesDescription": "اس کسٹمر کے پاس ابھی تک کوئی انوائس نہیں ہے۔",
+        "invoicesFor": "{name} کے انوائسز",
+        "invoicesSubtitle": "کسٹمر انوائس کی تاریخ اور تفصیلات",
+        "searchPlaceholder": "انوائسز تلاش کریں...",
+        "noInvoicesFound": "اس کسٹمر کے لیے کوئی انوائس نہیں ملا۔"
+      },
+      "quotations": {
+        "title": "کسٹمر کوٹیشنز",
+        "noQuotations": "کوئی کوٹیشن نہیں",
+        "noQuotationsDescription": "اس کسٹمر کے پاس ابھی تک کوئی کوٹیشن نہیں ہے۔",
+        "quotationsFor": "{name} کے کوٹیشنز",
+        "quotationsSubtitle": "کسٹمر کوٹیشن کی تاریخ اور تفصیلات",
+        "searchPlaceholder": "کوٹیشنز تلاش کریں...",
+        "noQuotationsFound": "اس کسٹمر کے لیے کوئی کوٹیشن نہیں ملا۔"
+      },
+      "deleteDialog": {
+        "title": "کسٹمر حذف کریں",
+        "description": "کیا آپ واقعی {name} کو حذف کرنا چاہتے ہیں؟ یہ عمل کالعدم نہیں کیا جا سکتا اور تمام کسٹمر ڈیٹا بشمول مالی ریکارڈ اور تعلقات کو مستقل طور پر ہٹا دے گا۔",
+        "cancel": "منسوخ",
+        "confirm": "کسٹمر حذف کریں"
+      }
+    }
+  },
+  "Vendor": {
+    "form": {
+      "addTitle": "نیا وینڈر شامل کریں",
+      "editTitle": "وینڈر میں ترمیم",
+      "loadingData": "وینڈر کا ڈیٹا لوڈ ہو رہا ہے...",
+      "tabs": {
+        "basicInfo": "بنیادی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financial": "مالیات"
+      },
+      "sections": {
+        "vendorInformation": "وینڈر کی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financialInformation": "مالی معلومات"
+      },
+      "fields": {
+        "vendorName": "وینڈر کا نام",
+        "vendorType": "وینڈر کی قسم",
+        "emailAddress": "ای میل ایڈریس",
+        "phoneNumber": "فون نمبر",
+        "otherContactNo": "دوسرا رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPerson": "رابطہ شخص",
+        "address": "پتہ",
+        "city": "شہر",
+        "country": "ملک",
+        "taxNumber": "ٹیکس نمبر (NTN)",
+        "website": "ویب سائٹ",
+        "officeAddress": "دفتری پتہ",
+        "notes": "نوٹس",
+        "tags": "ٹیگز",
+        "selectContractor": "ٹھیکیدار منتخب کریں",
+        "status": "حالت"
+      },
+      "placeholders": {
+        "enterVendorName": "وینڈر کا نام درج کریں",
+        "selectVendorType": "وینڈر کی قسم منتخب کریں",
+        "vendorEmail": "vendor@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "متبادل رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPersonName": "رابطہ شخص کا نام",
+        "completeAddress": "مکمل پتہ",
+        "selectCity": "شہر منتخب کریں",
+        "country": "ملک",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "مکمل دفتری پتہ",
+        "additionalNotes": "وینڈر کے بارے میں اضافی نوٹس",
+        "addTag": "ٹیگ شامل کریں",
+        "selectContractor": "ٹھیکیدار منتخب کریں (اختیاری)",
+        "selectStatus": "حالت منتخب کریں"
+      },
+      "types": {
+        "individual": "انفرادی",
+        "business": "کاروباری"
+      },
+      "statuses": {
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "blocked": "بلاک"
+      },
+      "actions": {
+        "cancel": "منسوخ",
+        "add": "وینڈر شامل کریں",
+        "update": "وینڈر اپڈیٹ کریں",
+        "saving": "محفوظ ہو رہا ہے...",
+        "addTag": "ٹیگ شامل کریں"
+      }
+    },
+    "management": {
+      "title": "وینڈر مینجمنٹ",
+      "subtitle": "اپنے وینڈرز کو منظم کریں، تفصیلات دیکھیں اور تعلقات کو ٹریک کریں",
+      "addVendor": "وینڈر شامل کریں",
+      "stats": {
+        "totalVendors": "کل وینڈرز",
+        "individualVendors": "انفرادی وینڈرز",
+        "companyVendors": "کمپنی وینڈرز",
+        "categories": "زمرے"
+      },
+      "emptyMessage": "کوئی وینڈر نہیں ملا۔ اپنا پہلا وینڈر شامل کر کے شروع کریں۔",
+      "deleteDialog": {
+        "title": "وینڈر حذف کریں",
+        "description": "کیا آپ واقعی {name} کو حذف کرنا چاہتے ہیں؟ یہ عمل کالعدم نہیں کیا جا سکتا اور تمام وینڈر ڈیٹا بشمول تعلقات اور تاریخ کو مستقل طور پر ہٹا دے گا۔",
+        "cancel": "منسوخ",
+        "confirm": "وینڈر حذف کریں"
+      }
+    }
+  },
+  "Contractor": {
+    "title": "ٹھیکیدار مینجمنٹ",
+    "subtitle": "اپنے ٹھیکیداروں کو منظم کریں، تفصیلات دیکھیں اور تعلقات کو ٹریک کریں",
+    "addContractor": "ٹھیکیدار شامل کریں",
+    "editContractor": "ٹھیکیدار میں ترمیم",
+    "deleteContractor": "ٹھیکیدار ڈیلیٹ کریں",
+    "viewContractor": "ٹھیکیدار دیکھیں",
+    "stats": {
+      "totalContractors": "کل ٹھیکیدار",
+      "activeContractors": "فعال ٹھیکیدار",
+      "businessContractors": "کاروباری ٹھیکیدار",
+      "individualContractors": "انفرادی ٹھیکیدار"
+    },
+    "table": {
+      "name": "نام",
+      "type": "قسم",
+      "company": "کمپنی",
+      "email": "ای میل",
+      "phone": "فون",
+      "address": "پتہ",
+      "status": "حالت",
+      "searchPlaceholder": "ٹھیکیدار تلاش کریں...",
+      "emptyMessage": "کوئی ٹھیکیدار نہیں ملا۔ اپنا پہلا ٹھیکیدار شامل کرکے شروع کریں۔"
+    },
+    "filters": {
+      "allStatus": "تمام حالتیں",
+      "active": "فعال",
+      "inactive": "غیر فعال",
+      "blocked": "بلاک"
+    },
+    "deleteConfirmation": {
+      "title": "ٹھیکیدار ڈیلیٹ کریں",
+      "description": "کیا آپ واقعی {name} کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی اور تمام ٹھیکیدار ڈیٹا کو مستقل طور پر ہٹا دے گی۔",
+      "cancel": "منسوخ",
+      "confirm": "ٹھیکیدار ڈیلیٹ کریں"
+    },
+    "messages": {
+      "contractorAdded": "ٹھیکیدار کامیابی سے شامل ہوا",
+      "contractorUpdated": "ٹھیکیدار کامیابی سے اپڈیٹ ہوا",
+      "contractorDeleted": "ٹھیکیدار کامیابی سے ڈیلیٹ ہوا",
+      "addFailed": "ٹھیکیدار شامل کرنے میں ناکامی",
+      "updateFailed": "ٹھیکیدار اپڈیٹ کرنے میں ناکامی",
+      "deleteFailed": "ٹھیکیدار ڈیلیٹ کرنے میں ناکامی"
+    },
+    "form": {
+      "addTitle": "نیا ٹھیکیدار شامل کریں",
+      "editTitle": "ٹھیکیدار میں ترمیم",
+      "loadingData": "ٹھیکیدار کا ڈیٹا لوڈ ہو رہا ہے...",
+      "tabs": {
+        "basicInfo": "بنیادی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financial": "مالیات"
+      },
+      "sections": {
+        "contractorInformation": "ٹھیکیدار کی معلومات",
+        "businessDetails": "کاروباری تفصیلات (اختیاری)",
+        "financialInformation": "مالی معلومات"
+      },
+      "fields": {
+        "contractorName": "ٹھیکیدار کا نام",
+        "contractorType": "ٹھیکیدار کی قسم",
+        "emailAddress": "ای میل ایڈریس",
+        "phoneNumber": "فون نمبر",
+        "otherContactNo": "دوسرا رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPerson": "رابطہ شخص",
+        "address": "پتہ",
+        "city": "شہر",
+        "country": "ملک",
+        "taxNumber": "ٹیکس نمبر (NTN)",
+        "website": "ویب سائٹ",
+        "officeAddress": "دفتری پتہ",
+        "notes": "نوٹس",
+        "specializations": "مہارتیں",
+        "selectContractor": "ٹھیکیدار منتخب کریں",
+        "status": "حالت"
+      },
+      "placeholders": {
+        "enterContractorName": "ٹھیکیدار کا نام درج کریں",
+        "selectContractorType": "ٹھیکیدار کی قسم منتخب کریں",
+        "contractorEmail": "contractor@company.com",
+        "phoneNumber": "+92-300-1234567",
+        "alternativeContact": "متبادل رابطہ نمبر",
+        "companyName": "کمپنی کا نام",
+        "contactPersonName": "رابطہ شخص کا نام",
+        "completeAddress": "مکمل پتہ",
+        "selectCity": "شہر منتخب کریں",
+        "country": "ملک",
+        "taxNumber": "NTN-1234567-8",
+        "website": "www.company.com",
+        "officeAddress": "مکمل دفتری پتہ",
+        "additionalNotes": "ٹھیکیدار کے بارے میں اضافی نوٹس",
+        "addSpecialization": "مہارت شامل کریں",
+        "selectContractor": "ٹھیکیدار منتخب کریں (اختیاری)"
+      },
+      "types": {
+        "individual": "انفرادی",
+        "business": "کاروباری"
+      },
+      "statuses": {
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "blocked": "بلاک"
+      },
+      "actions": {
+        "cancel": "منسوخ",
+        "add": "ٹھیکیدار شامل کریں",
+        "update": "ٹھیکیدار اپڈیٹ کریں",
+        "saving": "محفوظ ہو رہا ہے...",
+        "addSpecialization": "مہارت شامل کریں"
+      }
+    },
+    "detail": {
+      "loading": "ٹھیکیدار کی تفصیلات لوڈ ہو رہی ہیں...",
+      "notFound": "ٹھیکیدار نہیں ملا",
+      "backToContractors": "ٹھیکیداروں پر واپس",
+      "edit": "ترمیم",
+      "delete": "حذف کریں",
+      "sections": {
+        "basicInformation": "بنیادی معلومات",
+        "addressInformation": "پتہ کی معلومات",
+        "specializations": "مہارتیں",
+        "systemInformation": "سسٹم کی معلومات"
+      },
+      "fields": {
+        "companyName": "کمپنی کا نام",
+        "type": "قسم",
+        "category": "زمرہ",
+        "industry": "صنعت",
+        "email": "ای میل",
+        "phone": "فون",
+        "alternatePhone": "متبادل فون",
+        "website": "ویب سائٹ",
+        "notProvided": "فراہم نہیں کیا گیا",
+        "fullAddress": "مکمل پتہ",
+        "city": "شہر",
+        "country": "ملک",
+        "createdAt": "بنایا گیا",
+        "lastUpdated": "آخری اپڈیٹ",
+        "createdBy": "بنانے والا",
+        "lastUpdatedBy": "آخری اپڈیٹ کرنے والا"
+      }
+    }
+  },
+  "Director": {
+    "title": "ڈائریکٹر مینجمنٹ",
+    "subtitle": "اپنے ڈائریکٹرز کو منظم کریں، تفصیلات دیکھیں اور تعلقات کو ٹریک کریں",
+    "addDirector": "ڈائریکٹر شامل کریں",
+    "editDirector": "ڈائریکٹر میں ترمیم",
+    "deleteDirector": "ڈائریکٹر ڈیلیٹ کریں",
+    "viewDirector": "ڈائریکٹر دیکھیں",
+    "stats": {
+      "totalDirectors": "کل ڈائریکٹرز",
+      "activeDirectors": "فعال ڈائریکٹرز",
+      "businessDirectors": "کاروباری ڈائریکٹرز",
+      "individualDirectors": "انفرادی ڈائریکٹرز"
+    },
+    "table": {
+      "name": "نام",
+      "type": "قسم",
+      "company": "کمپنی",
+      "email": "ای میل",
+      "phone": "فون",
+      "address": "پتہ",
+      "status": "حالت",
+      "searchPlaceholder": "ڈائریکٹرز تلاش کریں...",
+      "emptyMessage": "کوئی ڈائریکٹر نہیں ملا۔ اپنا پہلا ڈائریکٹر شامل کرکے شروع کریں۔"
+    },
+    "filters": {
+      "allStatus": "تمام حالتیں",
+      "active": "فعال",
+      "inactive": "غیر فعال",
+      "blocked": "بلاک"
+    },
+    "deleteConfirmation": {
+      "title": "ڈائریکٹر ڈیلیٹ کریں",
+      "description": "کیا آپ واقعی {name} کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی اور تمام ڈائریکٹر ڈیٹا کو مستقل طور پر ہٹا دے گی۔",
+      "cancel": "منسوخ",
+      "confirm": "ڈائریکٹر ڈیلیٹ کریں"
+    },
+    "messages": {
+      "directorAdded": "ڈائریکٹر کامیابی سے شامل ہوا",
+      "directorUpdated": "ڈائریکٹر کامیابی سے اپڈیٹ ہوا",
+      "directorDeleted": "ڈائریکٹر کامیابی سے ڈیلیٹ ہوا",
+      "addFailed": "ڈائریکٹر شامل کرنے میں ناکامی",
+      "updateFailed": "ڈائریکٹر اپڈیٹ کرنے میں ناکامی",
+      "deleteFailed": "ڈائریکٹر ڈیلیٹ کرنے میں ناکامی"
+    }
+  },
+  "Till": {
+    "title": "ٹل مینجمنٹ",
+    "subtitle": "کیش فلو کو ٹریک کریں، لین دین کو منظم کریں اور اکاؤنٹ بیلنس کو مانیٹر کریں",
+    "addEntry": "لین دین شامل کریں",
+    "editEntry": "انٹری میں ترمیم",
+    "deleteEntry": "انٹری ڈیلیٹ کریں",
+    "viewEntry": "انٹری دیکھیں",
+    "loading": "ٹل ڈیٹا لوڈ ہو رہا ہے",
+    "export": "ایکسپورٹ",
+    "exporting": "ایکسپورٹ ہو رہا ہے...",
+    "stats": {
+      "totalEntries": "کل لین دین",
+      "todayEntries": "آج کی انٹریز",
+      "totalAmount": "کل بیلنس",
+      "cashAmount": "ہاتھ میں نقد"
+    },
+    "table": {
+      "date": "تاریخ",
+      "type": "قسم",
+      "amount": "رقم",
+      "description": "تفصیل",
+      "category": "قسم",
+      "status": "حالت",
+      "searchPlaceholder": "لین دین تلاش کریں...",
+      "emptyMessage": "کوئی لین دین نہیں ملا۔ اپنا پہلا لین دین شامل کرکے شروع کریں۔"
+    },
+    "filters": {
+      "allStatus": "تمام حالتیں",
+      "income": "آمدنی",
+      "expense": "خرچ",
+      "transfer": "منتقلی"
+    },
+    "deleteConfirmation": {
+      "title": "انٹری ڈیلیٹ کریں",
+      "description": "کیا آپ واقعی اس انٹری کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی اور انٹری ڈیٹا کو مستقل طور پر ہٹا دے گی۔",
+      "cancel": "منسوخ",
+      "confirm": "انٹری ڈیلیٹ کریں"
+    },
+    "messages": {
+      "entryAdded": "انٹری کامیابی سے شامل ہوئی",
+      "entryUpdated": "انٹری کامیابی سے اپڈیٹ ہوئی",
+      "entryDeleted": "انٹری کامیابی سے ڈیلیٹ ہوئی",
+      "addFailed": "انٹری شامل کرنے میں ناکامی",
+      "updateFailed": "انٹری اپڈیٹ کرنے میں ناکامی",
+      "deleteFailed": "انٹری ڈیلیٹ کرنے میں ناکامی"
+    }
+  },
+  "Quotation": {
+    "management": {
+      "title": "کوٹیشنز",
+      "subtitle": "کسٹمر کوٹیشنز اور تجاویز کو منظم کریں",
+      "newQuotation": "نئی کوٹیشن",
+      "loading": "کوٹیشنز لوڈ ہو رہی ہیں...",
+      "emptyMessage": "کوئی کوٹیشن نہیں ملی۔ اپنی پہلی کوٹیشن بنا کر شروع کریں۔",
+      "stats": {
+        "totalQuotations": "کل کوٹیشنز",
+        "totalValue": "کل قیمت",
+        "accepted": "قبول شدہ",
+        "pending": "زیر التواء"
+      },
+      "deleteDialog": {
+        "title": "کوٹیشن حذف کریں",
+        "description": "کیا آپ واقعی اس کوٹیشن کو حذف کرنا چاہتے ہیں؟ یہ عمل کالعدم نہیں کیا جا سکتا۔",
+        "cancel": "منسوخ",
+        "confirm": "کوٹیشن حذف کریں"
+      },
+      "convertDialog": {
+        "title": "کوٹیشن کو انوائس میں تبدیل کریں",
+        "description": "کیا آپ واقعی اس کوٹیشن کو انوائس میں تبدیل کرنا چاہتے ہیں؟ یہ عمل کوٹیشن کی تفصیلات کی بنیاد پر ایک نئی انوائس بنائے گا اور اسے کالعدم نہیں کیا جا سکتا۔",
+        "cancel": "منسوخ",
+        "confirm": "انوائس میں تبدیل کریں"
+      }
+    },
+    "form": {
+      "createTitle": "کوٹیشن بنائیں",
+      "editTitle": "کوٹیشن میں ترمیم",
+      "quotation": "کوٹیشن",
+      "date": "تاریخ",
+      "quoteNumber": "کوٹ نمبر",
+      "autoGenerated": "خودکار طور پر بنایا گیا",
+      "billTo": "بل کسے:",
+      "selectCustomer": "کسٹمر منتخب کریں",
+      "validUntil": "تک درست:",
+      "description": "تفصیل",
+      "descriptionPlaceholder": "کوٹیشن کی تفصیل درج کریں...",
+      "quotationItems": "کوٹیشن آئٹمز",
+      "addItem": "آئٹم شامل کریں",
+      "item": "آئٹم",
+      "remove": "ہٹائیں",
+      "fields": {
+        "description": "تفصیل",
+        "descriptionPlaceholder": "آئٹم کی تفصیل درج کریں",
+        "type": "قسم",
+        "length": "لمبائی",
+        "width": "چوڑائی",
+        "totalSize": "کل سائز",
+        "size": "سائز (مربع فٹ)",
+        "quantity": "مقدار",
+        "unitPrice": "یونٹ قیمت",
+        "fixedAmount": "مقررہ رقم",
+        "total": "کل"
+      },
+      "types": {
+        "lengthWidth": "لمبائی × چوڑائی",
+        "totalSize": "کل سائز",
+        "quantityOnly": "صرف مقدار",
+        "fixedAmount": "مقررہ رقم"
+      },
+      "attachments": "منسلکات",
+      "uploadFiles": "فائلیں اپ لوڈ کریں",
+      "pendingUpload": "اپ لوڈ زیر التواء",
+      "pending": "زیر التواء",
+      "existingAttachments": "موجودہ منسلکات",
+      "noFilesAttached": "کوئی فائل منسلک نہیں۔ منسلکات شامل کرنے کے لیے \"فائلیں اپ لوڈ کریں\" پر کلک کریں۔",
+      "financialSummary": "مالی خلاصہ",
+      "subTotal": "ذیلی کل:",
+      "tax": "ٹیکس:",
+      "discount": "رعایت:",
+      "termsNotes": "شرائط اور نوٹس",
+      "termsConditions": "شرائط و ضوابط",
+      "specialNotes": "خصوصی نوٹس",
+      "cancel": "منسوخ",
+      "save": "محفوظ کریں",
+      "saving": "محفوظ ہو رہا ہے...",
+      "createQuotation": "کوٹیشن بنائیں",
+      "updateQuotation": "کوٹیشن اپڈیٹ کریں"
+    },
+    "detail": {
+      "title": "کوٹیشن کی تفصیلات",
+      "print": "پرنٹ",
+      "close": "بند کریں",
+      "loading": "کوٹیشن کی تفصیلات لوڈ ہو رہی ہیں...",
+      "quotationNumber": "کوٹیشن نمبر",
+      "customer": "کسٹمر",
+      "phone": "فون",
+      "email": "ای میل",
+      "address": "پتہ",
+      "status": "حیثیت",
+      "totalAmount": "کل رقم",
+      "description": "تفصیل",
+      "items": "آئٹمز",
+      "financialSummary": "مالی خلاصہ",
+      "subtotal": "ذیلی کل",
+      "taxAmount": "ٹیکس کی رقم",
+      "discount": "رعایت",
+      "notes": "نوٹس",
+      "termsConditions": "شرائط و ضوابط",
+      "attachments": "منسلکات",
+      "download": "ڈاؤن لوڈ"
+    }
+  },
+  "Invoice": {
+    "title": "انوائس مینجمنٹ",
+    "subtitle": "انوائس بنائیں، منظم کریں اور ٹریک کریں",
+    "createInvoice": "انوائس بنائیں",
+    "editInvoice": "انوائس میں ترمیم",
+    "viewInvoice": "انوائس دیکھیں",
+    "deleteInvoice": "انوائس ڈیلیٹ کریں",
+    "printInvoice": "انوائس پرنٹ کریں",
+    "downloadInvoice": "انوائس ڈاؤن لوڈ کریں",
+    "sendInvoice": "انوائس بھیجیں",
+    "stats": {
+      "totalInvoices": "کل انوائسز",
+      "pendingInvoices": "زیر التواء انوائسز",
+      "paidInvoices": "ادا شدہ انوائسز",
+      "overdueInvoices": "اوورڈیو انوائسز"
+    },
+    "table": {
+      "invoiceNumber": "انوائس #",
+      "customer": "کسٹمر",
+      "amount": "رقم",
+      "status": "حالت",
+      "date": "تاریخ",
+      "dueDate": "ادائیگی کی تاریخ",
+      "actions": "اعمال",
+      "searchPlaceholder": "انوائسز تلاش کریں...",
+      "emptyMessage": "کوئی انوائس نہیں ملی۔ اپنی پہلی انوائس بنانے سے شروع کریں۔"
+    },
+    "filters": {
+      "allStatus": "تمام حالتیں",
+      "draft": "ڈرافٹ",
+      "sent": "بھیجا گیا",
+      "paid": "ادا شدہ",
+      "overdue": "اوورڈیو",
+      "cancelled": "منسوخ"
+    },
+    "statuses": {
+      "draft": "ڈرافٹ",
+      "sent": "بھیجا گیا",
+      "paid": "ادا شدہ",
+      "overdue": "اوورڈیو",
+      "cancelled": "منسوخ"
+    },
+    "form": {
+      "createTitle": "انوائس بنائیں",
+      "editTitle": "انوائس میں ترمیم",
+      "loadingData": "انوائس کا ڈیٹا لوڈ ہو رہا ہے...",
+      "sections": {
+        "header": "انوائس ہیڈر",
+        "customerInfo": "کسٹمر کی معلومات",
+        "invoiceItems": "انوائس آئٹمز",
+        "attachments": "منسلکات",
+        "financialSummary": "مالی خلاصہ",
+        "termsNotes": "شرائط اور نوٹس"
+      },
+      "fields": {
+        "customer": "کسٹمر",
+        "description": "تفصیل",
+        "itemDescription": "آئٹم کی تفصیل",
+        "itemType": "آئٹم کی قسم",
+        "length": "لمبائی",
+        "width": "چوڑائی",
+        "totalSize": "کل سائز",
+        "quantity": "مقدار",
+        "unitPrice": "یونٹ قیمت",
+        "fixedAmount": "مقررہ رقم",
+        "total": "کل",
+        "subtotal": "ذیلی کل",
+        "taxAmount": "ٹیکس کی رقم",
+        "discountAmount": "رعایت کی رقم",
+        "advanceAmount": "پیشگی رقم",
+        "totalAmount": "کل رقم",
+        "terms": "شرائط و ضوابط",
+        "notes": "خصوصی نوٹس"
+      },
+      "placeholders": {
+        "selectCustomer": "کسٹمر منتخب کریں",
+        "enterDescription": "انوائس کی تفصیل درج کریں...",
+        "enterItemDescription": "آئٹم کی تفصیل درج کریں",
+        "selectItemType": "آئٹم کی قسم منتخب کریں",
+        "enterLength": "0",
+        "enterWidth": "0",
+        "enterTotalSize": "0",
+        "enterQuantity": "1",
+        "enterUnitPrice": "0.00",
+        "enterFixedAmount": "0.00",
+        "enterTaxAmount": "0.00",
+        "enterDiscountAmount": "0.00",
+        "enterAdvanceAmount": "0.00",
+        "enterTerms": "شرائط و ضوابط درج کریں...",
+        "enterNotes": "خصوصی نوٹس درج کریں..."
+      },
+      "itemTypes": {
+        "lengthWidth": "لمبائی × چوڑائی",
+        "totalSize": "کل سائز",
+        "quantityOnly": "صرف مقدار",
+        "fixedAmount": "مقررہ رقم"
+      },
+      "actions": {
+        "addItem": "آئٹم شامل کریں",
+        "removeItem": "ہٹائیں",
+        "uploadFiles": "فائلز اپ لوڈ کریں",
+        "cancel": "منسوخ",
+        "save": "انوائس محفوظ کریں",
+        "update": "انوائس اپڈیٹ کریں",
+        "saving": "محفوظ ہو رہا ہے...",
+        "create": "انوائس بنائیں"
+      }
+    },
+    "deleteConfirmation": {
+      "title": "انوائس ڈیلیٹ کریں",
+      "description": "کیا آپ واقعی انوائس {invoiceNumber} کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی اور انوائس ڈیٹا کو مستقل طور پر ہٹا دے گی۔",
+      "cancel": "منسوخ",
+      "confirm": "انوائس ڈیلیٹ کریں"
+    },
+    "messages": {
+      "invoiceCreated": "انوائس کامیابی سے بنائی گئی",
+      "invoiceUpdated": "انوائس کامیابی سے اپڈیٹ ہوئی",
+      "invoiceDeleted": "انوائس کامیابی سے ڈیلیٹ ہوئی",
+      "createFailed": "انوائس بنانے میں ناکامی",
+      "updateFailed": "انوائس اپڈیٹ کرنے میں ناکامی",
+      "deleteFailed": "انوائس ڈیلیٹ کرنے میں ناکامی",
+      "noFilesAttached": "کوئی فائل منسلک نہیں۔ منسلکات شامل کرنے کے لیے اپ لوڈ فائلز پر کلک کریں۔",
+      "pendingUpload": "زیر التواء اپ لوڈ",
+      "existingAttachments": "موجودہ منسلکات",
+      "invoiceSaved": "انوائس کامیابی سے محفوظ ہوئی",
+      "invoiceApproved": "انوائس کامیابی سے منظور ہوئی",
+      "approveFailed": "انوائس منظور کرنے میں ناکامی",
+      "fetchFailed": "انوائس لانے میں ناکامی",
+      "noInvoiceSelected": "کوئی انوائس منتخب نہیں",
+      "printOpened": "پرنٹ ڈائیلاگ کھلا",
+      "printFailed": "پرنٹ ڈائیلاگ کھولنے میں ناکامی",
+      "downloadSuccess": "فائل {name} کامیابی سے ڈاؤن لوڈ ہوئی",
+      "downloadFailed": "فائل ڈاؤن لوڈ کرنے میں ناکامی"
+    },
+    "loading": {
+      "invoices": "انوائسز لوڈ ہو رہی ہیں..."
+    },
+    "actions": {
+      "view": "دیکھیں",
+      "edit": "ترمیم",
+      "delete": "ڈیلیٹ",
+      "approve": "منظور",
+      "print": "پرنٹ",
+      "close": "بند کریں"
+    },
+    "details": {
+      "title": "انوائس کی تفصیلات",
+      "invoiceNumber": "انوائس نمبر",
+      "customer": "کسٹمر",
+      "phone": "فون",
+      "email": "ای میل",
+      "status": "حالت",
+      "dueDate": "ادائیگی کی تاریخ",
+      "totalAmount": "کل رقم",
+      "description": "تفصیل",
+      "items": "آئٹمز",
+      "notSet": "سیٹ نہیں",
+      "loadingDetails": "انوائس کی تفصیلات لوڈ ہو رہی ہیں..."
+    }
+  },
+  "Settings": {
+    "title": "سیٹنگز",
+    "subtitle": "اپنی ایپلیکیشن کی سیٹنگز اور ترجیحات کو منظم کریں",
+    "general": "عام سیٹنگز",
+    "profile": "پروفائل سیٹنگز",
+    "security": "سیکیورٹی سیٹنگز",
+    "notifications": "نوٹیفیکیشن سیٹنگز",
+    "language": "زبان کی سیٹنگز",
+    "theme": "تھیم سیٹنگز",
+    "sections": {
+      "companyInfo": "کمپنی کی معلومات",
+      "userProfile": "یوزر پروفائل",
+      "securitySettings": "سیکیورٹی سیٹنگز",
+      "notificationSettings": "نوٹیفیکیشن سیٹنگز",
+      "languageSettings": "زبان کی سیٹنگز",
+      "themeSettings": "تھیم سیٹنگز"
+    },
+    "fields": {
+      "companyName": "کمپنی کا نام",
+      "companyAddress": "کمپنی کا پتہ",
+      "companyPhone": "کمپنی کا فون",
+      "companyEmail": "کمپنی کا ای میل",
+      "firstName": "پہلا نام",
+      "lastName": "آخری نام",
+      "email": "ای میل",
+      "phone": "فون",
+      "currentPassword": "موجودہ پاس ورڈ",
+      "newPassword": "نیا پاس ورڈ",
+      "confirmPassword": "پاس ورڈ کی تصدیق",
+      "language": "زبان",
+      "theme": "تھیم"
+    },
+    "placeholders": {
+      "enterCompanyName": "کمپنی کا نام درج کریں",
+      "enterCompanyAddress": "کمپنی کا پتہ درج کریں",
+      "enterCompanyPhone": "کمپنی کا فون درج کریں",
+      "enterCompanyEmail": "کمپنی کا ای میل درج کریں",
+      "enterFirstName": "پہلا نام درج کریں",
+      "enterLastName": "آخری نام درج کریں",
+      "enterEmail": "ای میل درج کریں",
+      "enterPhone": "فون درج کریں",
+      "enterCurrentPassword": "موجودہ پاس ورڈ درج کریں",
+      "enterNewPassword": "نیا پاس ورڈ درج کریں",
+      "enterConfirmPassword": "نیا پاس ورڈ کی تصدیق کریں",
+      "selectLanguage": "زبان منتخب کریں",
+      "selectTheme": "تھیم منتخب کریں"
+    },
+    "themes": {
+      "light": "روشن",
+      "dark": "تاریک",
+      "system": "سسٹم"
+    },
+    "actions": {
+      "save": "سیٹنگز محفوظ کریں",
+      "cancel": "منسوخ",
+      "reset": "ڈیفالٹ پر ری سیٹ",
+      "saving": "محفوظ ہو رہا ہے...",
+      "update": "سیٹنگز اپڈیٹ کریں"
+    },
+    "messages": {
+      "settingsSaved": "سیٹنگز کامیابی سے محفوظ ہوئیں",
+      "settingsUpdated": "سیٹنگز کامیابی سے اپڈیٹ ہوئیں",
+      "settingsReset": "سیٹنگز ڈیفالٹ پر ری سیٹ ہو گئیں",
+      "saveFailed": "سیٹنگز محفوظ کرنے میں ناکامی",
+      "updateFailed": "سیٹنگز اپڈیٹ کرنے میں ناکامی",
+      "resetFailed": "سیٹنگز ری سیٹ کرنے میں ناکامی"
+    }
+  },
+  "DailyEntry": {
+    "form": {
+      "addTitle": "نیا انٹری شامل کریں",
+      "editTitle": "انٹری میں ترمیم",
+      "loading": "ڈیٹا لوڈ ہو رہا ہے",
+      "tabs": {
+        "basicInfo": "بنیادی معلومات",
+        "details": "اضافی تفصیلات"
+      },
+      "sections": {
+        "entryInformation": "انٹری کی معلومات",
+        "additionalDetails": "اضافی تفصیلات"
+      },
+      "fields": {
+        "entryType": "انٹری کی قسم",
+        "amount": "رقم",
+        "description": "تفصیل",
+        "date": "تاریخ",
+        "category": "قسم",
+        "customer": "کسٹمر",
+        "vendor": "وینڈر",
+        "employee": "ملازم",
+        "director": "ڈائریکٹر",
+        "location": "مقام",
+        "notes": "نوٹس",
+        "tags": "ٹیگز"
+      },
+      "placeholders": {
+        "selectEntryType": "انٹری کی قسم منتخب کریں",
+        "enterAmount": "رقم درج کریں",
+        "enterDescription": "تفصیل درج کریں",
+        "selectDate": "تاریخ منتخب کریں",
+        "selectCategory": "قسم منتخب کریں",
+        "selectCustomer": "کسٹمر منتخب کریں",
+        "selectVendor": "وینڈر منتخب کریں",
+        "selectEmployee": "ملازم منتخب کریں",
+        "selectDirector": "ڈائریکٹر منتخب کریں",
+        "enterLocation": "مقام درج کریں",
+        "enterNotes": "نوٹس درج کریں",
+        "addTag": "ٹیگ شامل کریں"
+      },
+      "types": {
+        "income": "آمدنی",
+        "expense": "خرچ",
+        "transfer": "منتقلی"
+      },
+      "actions": {
+        "cancel": "منسوخ",
+        "add": "انٹری شامل کریں",
+        "update": "انٹری اپڈیٹ کریں",
+        "saving": "محفوظ ہو رہا ہے...",
+        "addTag": "ٹیگ شامل کریں"
+      }
+    }
+  },
+    "Finance": {
+        "invoices": {
+            "title": "انوائسز",
+            "subtitle": "کسٹمر انوائسز کو منظم کریں اور ادائیگیوں کو ٹریک کریں",
+            "newInvoice": "نیا انوائس",
+            "stats": {
+                "totalInvoices": "کل انوائسز",
+                "totalValue": "کل قیمت",
+                "paid": "ادا شدہ",
+                "pending": "زیر التواء"
+            },
+            "table": {
+                "invoiceNumber": "انوائس #",
+                "customer": "کسٹمر",
+                "description": "تفصیل",
+                "totalAmount": "کل رقم",
+                "status": "حالت",
+                "created": "بنایا گیا",
+                "searchPlaceholder": "انوائسز تلاش کریں...",
+                "emptyMessage": "کوئی انوائس نہیں ملا۔ اپنا پہلا انوائس بنانے سے شروع کریں۔"
+            },
+            "actions": {
+                "view": "دیکھیں",
+                "edit": "انوائس میں ترمیم",
+                "delete": "انوائس ڈیلیٹ کریں",
+                "approve": "انوائس منظور کریں",
+                "print": "پرنٹ",
+                "close": "بند کریں",
+                "download": "ڈاؤن لوڈ"
+            },
+            "details": {
+                "title": "انوائس کی تفصیلات",
+                "invoiceNumber": "انوائس نمبر",
+                "customer": "کسٹمر",
+                "phone": "فون",
+                "email": "ای میل",
+                "status": "حالت",
+                "dueDate": "ادائیگی کی تاریخ",
+                "totalAmount": "کل رقم",
+                "description": "تفصیل",
+                "items": "آئٹمز",
+                "summary": "خلاصہ",
+                "notes": "نوٹس",
+                "termsConditions": "شرائط و ضوابط",
+                "attachments": "منسلکات",
+                "subtotal": "ذیلی کل",
+                "taxAmount": "ٹیکس کی رقم",
+                "discountAmount": "رعایت کی رقم",
+                "advanceAmount": "پیشگی رقم",
+                "previousBalance": "پچھلا بیلنس",
+                "totalAmountFinal": "کل رقم"
+            },
+            "items": {
+                "description": "تفصیل",
+                "type": "قسم",
+                "length": "لمبائی",
+                "width": "چوڑائی",
+                "quantity": "مقدار",
+                "totalSize": "کل سائز",
+                "unitPrice": "یونٹ قیمت",
+                "fixedAmount": "مقررہ رقم",
+                "total": "کل"
+            },
+            "confirmations": {
+                "delete": {
+                    "title": "انوائس ڈیلیٹ کریں",
+                    "description": "کیا آپ واقعی اس انوائس کو ڈیلیٹ کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی۔",
+                    "confirm": "انوائس ڈیلیٹ کریں"
+                },
+                "approve": {
+                    "title": "انوائس منظور کریں",
+                    "description": "کیا آپ واقعی اس انوائس کو منظور کرنا چاہتے ہیں؟ یہ اس کی حالت کو ڈرافٹ سے سینٹ میں تبدیل کر دے گا۔",
+                    "confirm": "انوائس منظور کریں"
+                }
+            },
+            "messages": {
+                "invoiceSaved": "انوائس کامیابی سے محفوظ ہوا!",
+                "invoiceDeleted": "انوائس کامیابی سے ڈیلیٹ ہوا",
+                "invoiceApproved": "انوائس کامیابی سے منظور ہوا",
+                "deleteFailed": "انوائس ڈیلیٹ کرنے میں ناکامی",
+                "approveFailed": "انوائس منظور کرنے میں ناکامی",
+                "fetchFailed": "انوائس کی تفصیلات حاصل کرنے میں ناکامی",
+                "printOpened": "پرنٹ ونڈو کامیابی سے کھلی",
+                "printFailed": "پرنٹ ونڈو کھولنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+                "downloadSuccess": "{name} ڈاؤن لوڈ ہو رہا ہے",
+                "downloadFailed": "منسلکہ ڈاؤن لوڈ کرنے میں ناکامی",
+                "noInvoiceSelected": "پرنٹنگ کے لیے کوئی انوائس منتخب نہیں"
+            },
+            "loading": {
+                "invoices": "انوائسز لوڈ ہو رہے ہیں...",
+                "details": "انوائس کی تفصیلات لوڈ ہو رہی ہیں..."
+            }
+        }
+    },
+    "Employee": {
+        "form": {
+            "addTitle": "نیا ملازم شامل کریں",
+            "editTitle": "ملازم میں ترمیم",
+            "tabs": {
+                "basicInfo": "بنیادی معلومات",
+                "employment": "ملازمت",
+                "emergency": "ایمرجنسی",
+                "experience": "تجربہ",
+                "documents": "دستاویزات"
+            },
+            "actions": {
+                "cancel": "منسوخ",
+                "add": "ملازم شامل کریں",
+                "update": "ملازم اپڈیٹ کریں",
+                "saving": "محفوظ ہو رہا ہے..."
+            },
+            "basicInfo": {
+                "title": "ذاتی معلومات",
+                "uploadPhoto": "تصویر اپ لوڈ کریں",
+                "photoDescription": "ملازم کے پروفائل کے لیے ایک پیشہ ورانہ تصویر اپ لوڈ کریں۔ تجویز کردہ سائز: 400x400 پکسلز۔",
+                "fields": {
+                    "fullName": "پورا نام",
+                    "cnic": "شناختی کارڈ نمبر",
+                    "age": "عمر",
+                    "cast": "ذات",
+                    "study": "تعلیم",
+                    "email": "ای میل ایڈریس",
+                    "phone": "فون نمبر",
+                    "address": "پتہ لائن 1",
+                    "address2": "پتہ لائن 2"
+                },
+                "placeholders": {
+                    "fullName": "پورا نام درج کریں",
+                    "cnic": "12345-1234567-1",
+                    "age": "25",
+                    "cast": "ذات درج کریں",
+                    "study": "مثال: بی ایس سی کمپیوٹر سائنس",
+                    "email": "employee@pakbiz.com",
+                    "phone": "+92-300-1234567",
+                    "address": "شہر کے ساتھ مکمل پتہ",
+                    "address2": "اضافی پتہ کی معلومات (اختیاری)"
+                }
+            },
+            "employment": {
+                "title": "ملازمت کی تفصیلات",
+                "fields": {
+                    "employeeId": "ملازم آئی ڈی",
+                    "position": "عہدہ",
+                    "department": "محکمہ",
+                    "salary": "ماہانہ تنخواہ (PKR)",
+                    "joinDate": "شمولیت کی تاریخ",
+                    "bankAccount": "بینک اکاؤنٹ نمبر",
+                    "status": "ملازمت کی حیثیت"
+                },
+                "placeholders": {
+                    "employeeId": "جنریٹ پر کلک کریں یا دستی طور پر درج کریں",
+                    "position": "ملازمت کا عنوان/عہدہ",
+                    "department": "محکمہ منتخب کریں",
+                    "salary": "50000",
+                    "bankAccount": "1234567890"
+                },
+                "actions": {
+                    "generate": "جنریٹ"
+                },
+                "status": {
+                    "active": "فعال",
+                    "inactive": "غیر فعال",
+                    "terminated": "ختم شدہ"
+                }
+            },
+            "emergency": {
+                "title": "ایمرجنسی رابطے (اختیاری)",
+                "description": "ایمرجنسی رابطہ کی معلومات شامل کریں۔ یہ سیکشن اختیاری ہے لیکن تجویز کردہ ہے۔",
+                "contactTitle": "ایمرجنسی رابطہ",
+                "fields": {
+                    "name": "رابطہ کا نام",
+                    "phone": "رابطہ فون",
+                    "relation": "تعلق",
+                    "occupation": "پیشہ"
+                },
+                "placeholders": {
+                    "name": "ایمرجنسی رابطہ کا نام",
+                    "phone": "+92-300-1234567",
+                    "relation": "تعلق منتخب کریں",
+                    "occupation": "مثال: استاد، انجینئر، کاروبار"
+                },
+                "relations": {
+                    "father": "والد",
+                    "mother": "والدہ",
+                    "spouse": "شریک حیات",
+                    "brother": "بھائی",
+                    "sister": "بہن",
+                    "son": "بیٹا",
+                    "daughter": "بیٹی",
+                    "friend": "دوست",
+                    "other": "دیگر"
+                },
+                "actions": {
+                    "add": "ایک اور ایمرجنسی رابطہ شامل کریں"
+                }
+            },
+            "experience": {
+                "title": "کام کا تجربہ (اختیاری)",
+                "description": "پچھلے کام کا تجربہ شامل کریں۔ یہ سیکشن اختیاری ہے اور بعد میں بھی پُر کیا جا سکتا ہے۔",
+                "experienceTitle": "تجربہ",
+                "fields": {
+                    "title": "ملازمت کا عنوان",
+                    "address": "کمپنی کا پتہ",
+                    "from": "شروع کی تاریخ",
+                    "to": "ختم کی تاریخ",
+                    "description": "ملازمت کی تفصیل"
+                },
+                "placeholders": {
+                    "title": "مثال: سافٹ ویئر انجینئر",
+                    "address": "کمپنی کا پتہ",
+                    "description": "اپنے کردار اور ذمہ داریوں کی وضاحت کریں"
+                },
+                "actions": {
+                    "add": "ایک اور تجربہ شامل کریں"
+                }
+            },
+            "documents": {
+                "title": "دستاویز اپ لوڈ (اختیاری)",
+                "description": "ملازم کی دستاویزات جیسے شناختی کارڈ، سی وی، سرٹیفکیٹ وغیرہ اپ لوڈ کریں۔ یہ سیکشن اختیاری ہے۔",
+                "fields": {
+                    "type": "دستاویز کی قسم (مثال: شناختی کارڈ، سی وی، سرٹیفکیٹ)",
+                    "file": "فائل منتخب کریں"
+                },
+                "existingFile": "موجودہ فائل",
+                "actions": {
+                    "add": "دستاویز کی قسم شامل کریں"
+                }
+            }
+        },
+        "detail": {
+            "loading": "ملازم کی تفصیلات لوڈ ہو رہی ہیں",
+            "loadingDescription": "ملازم کی معلومات، حاضری، اخراجات، اور تنخواہ کا ڈیٹا حاصل کیا جا رہا ہے...",
+            "errorLoading": "ملازم لوڈ کرنے میں خرابی",
+            "tryAgain": "دوبارہ کوشش کریں",
+            "notFound": "ملازم نہیں ملا",
+            "notFoundDescription": "جس ملازم کو آپ تلاش کر رہے ہیں وہ موجود نہیں ہے یا ہٹا دیا گیا ہے۔",
+            "backToEmployees": "ملازمین کی فہرست پر واپس",
+            "print": "پرنٹ",
+            "edit": "ترمیم",
+            "delete": "حذف کریں",
+            "deleteConfirm": "کیا آپ واقعی اس ملازم کو حذف کرنا چاہتے ہیں؟ یہ عمل واپس نہیں کیا جا سکتا۔",
+            "deleteSuccess": "ملازم کامیابی سے حذف ہو گیا",
+            "deleteFailed": "ملازم حذف کرنے میں ناکام",
+            "updateSuccess": "ملازم کامیابی سے اپ ڈیٹ ہو گیا",
+            "updateFailed": "ملازم اپ ڈیٹ کرنے میں ناکام",
+            "stats": {
+                "monthlySalary": "ماہانہ تنخواہ",
+                "yearsOfService": "سروس کے سال",
+                "totalExpenses": "کل اخراجات",
+                "attendanceRate": "حاضری کی شرح"
+            },
+            "tabs": {
+                "overview": "خلاصہ",
+                "attendance": "حاضری",
+                "expenses": "اخراجات",
+                "salary": "تنخواہ"
+            },
+            "overview": {
+                "personalInfo": "ذاتی معلومات",
+                "employmentInfo": "ملازمت کی معلومات",
+                "workExperience": "کام کا تجربہ",
+                "emergencyContacts": "ایمرجنسی رابطے",
+                "noExperience": "کوئی کام کا تجربہ نہیں",
+                "noExperienceDescription": "اس ملازم کے لیے کوئی کام کا تجربہ شامل نہیں کیا گیا ہے۔",
+                "fields": {
+                    "employeeId": "ملازم آئی ڈی",
+                    "cnic": "شناختی کارڈ نمبر",
+                    "age": "عمر",
+                    "years": "سال",
+                    "cast": "ذات",
+                    "study": "تعلیم",
+                    "email": "ای میل",
+                    "phone": "فون",
+                    "address": "پتہ",
+                    "department": "محکمہ",
+                    "position": "عہدہ",
+                    "joinDate": "شمولیت کی تاریخ",
+                    "status": "حیثیت",
+                    "monthlySalary": "ماہانہ تنخواہ",
+                    "bankAccount": "بینک اکاؤنٹ",
+                    "jobTitle": "ملازمت کا عنوان",
+                    "companyAddress": "کمپنی کا پتہ",
+                    "fromDate": "شروع کی تاریخ",
+                    "toDate": "ختم کی تاریخ",
+                    "jobDescription": "ملازمت کی تفصیل"
+                }
+            },
+            "attendance": {
+                "title": "حاضری کا ریکارڈ برائے",
+                "subtitle": "ماہانہ حاضری برائے",
+                "month": "مہینہ",
+                "year": "سال",
+                "selectMonth": "مہینہ منتخب کریں",
+                "selectYear": "سال منتخب کریں",
+                "loading": "حاضری کا ڈیٹا لوڈ ہو رہا ہے",
+                "loadingDescription": "حاضری کے ریکارڈز حاصل کیے جا رہے ہیں...",
+                "noRecords": "کوئی حاضری کے ریکارڈ نہیں",
+                "noRecordsDescription": "کے لیے کوئی حاضری کے ریکارڈ نہیں ملے",
+                "searchPlaceholder": "حاضری تلاش کریں...",
+                "columns": {
+                    "date": "تاریخ",
+                    "day": "دن",
+                    "checkIn": "آمد",
+                    "checkOut": "رخصت",
+                    "status": "حیثیت",
+                    "workingHours": "کام کے گھنٹے",
+                    "overtime": "اضافی وقت",
+                    "note": "نوٹ"
+                },
+                "months": {
+                    "january": "جنوری",
+                    "february": "فروری",
+                    "march": "مارچ",
+                    "april": "اپریل",
+                    "may": "مئی",
+                    "june": "جون",
+                    "july": "جولائی",
+                    "august": "اگست",
+                    "september": "ستمبر",
+                    "october": "اکتوبر",
+                    "november": "نومبر",
+                    "december": "دسمبر"
+                }
+            },
+            "expenses": {
+                "title": "اخراجات برائے",
+                "subtitle": "ماہانہ اخراجات برائے",
+                "month": "مہینہ",
+                "year": "سال",
+                "selectMonth": "مہینہ منتخب کریں",
+                "selectYear": "سال منتخب کریں",
+                "loading": "اخراجات کا ڈیٹا لوڈ ہو رہا ہے",
+                "loadingDescription": "اخراجات کے ریکارڈز حاصل کیے جا رہے ہیں...",
+                "noRecords": "کوئی اخراجات کے ریکارڈ نہیں",
+                "noRecordsDescription": "کے لیے کوئی اخراجات کے ریکارڈ نہیں ملے",
+                "searchPlaceholder": "اخراجات تلاش کریں...",
+                "columns": {
+                    "date": "تاریخ",
+                    "description": "تفصیل",
+                    "amount": "رقم",
+                    "type": "قسم",
+                    "category": "زمرہ",
+                    "created": "تخلیق شدہ"
+                }
+            },
+            "salary": {
+                "title": "تنخواہ کی تاریخ برائے",
+                "subtitle": "ملازم کی تنخواہ کی سلپس اور ادائیگی کی تاریخ",
+                "loading": "تنخواہ کا ڈیٹا لوڈ ہو رہا ہے",
+                "loadingDescription": "تنخواہ کے ریکارڈز حاصل کیے جا رہے ہیں...",
+                "noRecords": "کوئی تنخواہ کے ریکارڈ نہیں",
+                "noRecordsDescription": "اس ملازم کے لیے کوئی تنخواہ کے ریکارڈ نہیں ملے۔",
+                "searchPlaceholder": "تنخواہ کے ریکارڈز تلاش کریں...",
+                "viewDetails": "دیکھیں",
+                "columns": {
+                    "monthYear": "مہینہ/سال",
+                    "basicSalary": "بنیادی تنخواہ",
+                    "overtime": "اضافی وقت",
+                    "grossSalary": "مجموعی تنخواہ",
+                    "netSalary": "خالص تنخواہ",
+                    "status": "حیثیت",
+                    "generated": "تیار شدہ",
+                    "actions": "اقدامات"
+                },
+                "detail": {
+                    "title": "تنخواہ کی تفصیلات",
+                    "basicSalary": "بنیادی تنخواہ",
+                    "overtime": "اضافی وقت",
+                    "grossSalary": "مجموعی تنخواہ",
+                    "netSalary": "خالص تنخواہ",
+                    "deductions": "کٹوتیاں",
+                    "totalDeductions": "کل کٹوتیاں:",
+                    "paymentStatus": "ادائیگی کی حیثیت",
+                    "paidOn": "ادائیگی کی تاریخ:",
+                    "salaryPeriod": "تنخواہ کی مدت",
+                    "generated": "تیار شدہ:",
+                    "remarks": "تبصرے",
+                    "loanId": "قرض آئی ڈی:",
+                    "installment": "قسط:"
+                }
+            },
+            "print": {
+                "title": "ملازم کا پروفائل - پرنٹ ویو",
+                "companyName": "STAFFLY",
+                "companyDescription": "مکمل کاروباری مینجمنٹ حل",
+                "profileTitle": "ملازم کا پروفائل",
+                "generatedOn": "تیار شدہ بتاریخ",
+                "at": "بوقت",
+                "generatedBy": "یہ دستاویز Staffly HR مینجمنٹ سسٹم کے ذریعے تیار کی گئی ہے"
+            }
+        }
+    },
+    "Common": {
+        "loading": "لوڈ ہو رہا ہے...",
+        "error": "خرابی",
+        "retry": "دوبارہ کوشش",
+        "cancel": "منسوخ",
+        "save": "محفوظ",
+        "edit": "ترمیم",
+        "delete": "ڈیلیٹ",
+        "view": "دیکھیں",
+        "add": "شامل کریں",
+        "update": "اپڈیٹ",
+        "close": "بند کریں",
+        "confirm": "تصدیق",
+        "yes": "ہاں",
+        "no": "نہیں",
+        "success": "کامیابی",
+        "warning": "انتباہ",
+        "info": "معلومات",
+        "search": "تلاش",
+        "filter": "فلٹر",
+        "export": "ایکسپورٹ",
+        "print": "پرنٹ",
+        "download": "ڈاؤن لوڈ",
+        "upload": "اپ لوڈ",
+        "select": "منتخب کریں",
+        "clear": "صاف کریں",
+        "reset": "ری سیٹ",
+        "submit": "جمع کریں",
+        "back": "واپس",
+        "next": "اگلا",
+        "previous": "پچھلا",
+        "finish": "ختم",
+        "continue": "جاری رکھیں",
+        "skip": "چھوڑیں",
+        "required": "ضروری",
+        "optional": "اختیاری",
+        "all": "تمام",
+        "none": "کوئی نہیں",
+        "selectAll": "تمام منتخب",
+        "deselectAll": "تمام غیر منتخب",
+        "noData": "کوئی ڈیٹا دستیاب نہیں",
+        "noResults": "کوئی نتائج نہیں ملے",
+        "tryAgain": "دوبارہ کوشش کریں",
+        "refresh": "ریفریش",
+        "reload": "دوبارہ لوڈ",
+        "status": {
+            "active": "فعال",
+            "inactive": "غیر فعال",
+            "pending": "زیر التواء",
+            "completed": "مکمل",
+            "cancelled": "منسوخ",
+            "draft": "ڈرافٹ",
+            "sent": "بھیجا گیا",
+            "accepted": "قبول",
+            "rejected": "مسترد",
+            "paid": "ادا شدہ",
+            "overdue": "تاریخ گزر گئی",
+            "blocked": "بلاک"
+        }
+    },
+    "Attendance": {
+        "page": {
+            "markAttendance": "حاضری نشان زد کریں",
+            "backToPayroll": "پے رول پر واپس"
+        },
+        "management": {
+            "title": "حاضری کا انتظام",
+            "markFor": "کے لیے حاضری نشان زد کریں",
+            "editFor": "کے لیے حاضری میں ترمیم کریں",
+            "saved": "محفوظ",
+            "updated": "اپ ڈیٹ",
+            "successfully": "کامیابی سے! ڈائیلاگ 1.5 سیکنڈ میں بند ہو جائے گا...",
+            "bulkEdit": "بلک ترمیم",
+            "saveAttendance": "حاضری محفوظ کریں",
+            "updateAttendance": "حاضری اپ ڈیٹ کریں",
+            "saving": "محفوظ ہو رہا ہے...",
+            "success": "کامیابی!",
+            "export": "ایکسپورٹ",
+            "selectAll": "سب منتخب کریں",
+            "clearSelection": "انتخاب صاف کریں",
+            "applyToSelected": "{count} منتخب شدہ پر لاگو کریں",
+            "cancel": "منسوخ",
+            "bulkEditTitle": "منتخب شدہ ملازمین میں بلک ترمیم",
+            "selected": "منتخب شدہ",
+            "checkInTime": "آمد کا وقت",
+            "checkOutTime": "رخصت کا وقت",
+            "leaveEmptyToSkip": "چھوڑنے کے لیے خالی چھوڑ دیں",
+            "bonus": "بونس",
+            "notes": "نوٹس",
+            "bulkEditNote1": "• منتخب شدہ ملازمین کے لیے اس فیلڈ کو اپ ڈیٹ کرنے سے چھوڑنے کے لیے فیلڈز خالی چھوڑ دیں",
+            "bulkEditNote2": "• اگر آمد اور رخصت دونوں اوقات فراہم کیے جائیں تو کام کے گھنٹے خودکار طور پر شمار کیے جائیں گے",
+            "table": {
+                "employee": "ملازم",
+                "checkIn": "آمد",
+                "checkOut": "رخصت",
+                "workingHours": "کام کے گھنٹے",
+                "overtime": "اضافی وقت",
+                "status": "حیثیت",
+                "bonus": "بونس",
+                "notes": "نوٹس",
+                "optionalNotes": "اختیاری نوٹس"
+            },
+            "status": {
+                "present": "حاضر",
+                "absent": "غیر حاضر",
+                "late": "تاخیر",
+                "halfDay": "نصف دن",
+                "overtime": "اضافی وقت",
+                "leave": "چھٹی",
+                "holiday": "تعطیل"
+            },
+            "errors": {
+                "selectEmployees": "براہ کرم ترمیم کے لیے ملازمین منتخب کریں",
+                "noRecordsToSave": "محفوظ کرنے کے لیے کوئی حاضری کے ریکارڈ نہیں",
+                "saveFailed": "حاضری محفوظ کرنے میں ناکام",
+                "updateFailed": "حاضری اپ ڈیٹ کرنے میں ناکام"
+            }
+        },
+        "detail": {
+            "title": "حاضری کی تفصیلات",
+            "backToAttendance": "حاضری پر واپس",
+            "loading": "حاضری کی تفصیلات لوڈ ہو رہی ہیں...",
+            "failedToLoad": "ڈیٹا لوڈ کرنے میں ناکام",
+            "retry": "دوبارہ کوشش کریں",
+            "employeeAttendanceDetails": "ملازم کی حاضری کی تفصیلات",
+            "searchPlaceholder": "ملازمین تلاش کریں...",
+            "noRecords": "اس تاریخ کے لیے کوئی حاضری کے ریکارڈ نہیں ملے",
+            "stats": {
+                "totalEmployees": "کل ملازمین",
+                "present": "حاضر",
+                "absent": "غیر حاضر",
+                "attendanceRate": "حاضری کی شرح"
+            },
+            "columns": {
+                "employee": "ملازم",
+                "employeeId": "ملازم آئی ڈی",
+                "department": "محکمہ",
+                "checkIn": "آمد",
+                "checkOut": "رخصت",
+                "status": "حیثیت",
+                "workingHours": "کام کے گھنٹے",
+                "overtime": "اضافی وقت",
+                "notes": "نوٹس"
+            },
+            "actions": {
+                "editAttendance": "حاضری میں ترمیم کریں"
+            }
+        }
+    },
+    "Salary": {
+        "page": {
+            "title": "تنخواہ کی سلپس",
+            "subtitle": "ملازمین کی تنخواہ کی سلپس دیکھیں، منظم کریں، اور ادا کریں",
+            "backToPayroll": "پے رول پر واپس",
+            "exportAll": "سب ایکسپورٹ کریں",
+            "generateBatch": "بیچ تیار کریں"
+        },
+        "management": {
+            "title": "تنخواہ کا انتظام",
+            "month": "مہینہ",
+            "year": "سال",
+            "selectMonth": "مہینہ منتخب کریں",
+            "selectYear": "سال منتخب کریں",
+            "loading": "تنخواہ کا ڈیٹا لوڈ ہو رہا ہے",
+            "loadingDescription": "تنخواہ کی تاریخ حاصل کی جا رہی ہے...",
+            "noRecords": "کوئی تنخواہ کے ریکارڈ نہیں",
+            "noRecordsDescription": "{month} {year} کے لیے کوئی تنخواہ کے ریکارڈ نہیں ملے۔",
+            "searchPlaceholder": "تنخواہ کی سلپس تلاش کریں...",
+            "stats": {
+                "totalBasicSalary": "کل بنیادی تنخواہ",
+                "totalNetSalary": "کل خالص تنخواہ",
+                "pendingPayments": "زیر التواء ادائیگیاں",
+                "paidSalaries": "ادا شدہ تنخواہیں"
+            },
+            "columns": {
+                "employeeName": "ملازم کا نام",
+                "employeeId": "ملازم آئی ڈی",
+                "department": "محکمہ",
+                "basicSalary": "بنیادی تنخواہ",
+                "overtime": "اضافی وقت",
+                "grossSalary": "مجموعی تنخواہ",
+                "netSalary": "خالص تنخواہ",
+                "status": "حیثیت",
+                "generated": "تیار شدہ",
+                "actions": "اقدامات"
+            },
+            "actions": {
+                "view": "دیکھیں",
+                "disburse": "ادا کریں"
+            },
+            "months": {
+                "january": "جنوری",
+                "february": "فروری",
+                "march": "مارچ",
+                "april": "اپریل",
+                "may": "مئی",
+                "june": "جون",
+                "july": "جولائی",
+                "august": "اگست",
+                "september": "ستمبر",
+                "october": "اکتوبر",
+                "november": "نومبر",
+                "december": "دسمبر"
+            }
+        },
+        "detail": {
+            "title": "تنخواہ کی تفصیلات",
+            "employeeInfo": "ملازم کی معلومات",
+            "salaryBreakdown": "تنخواہ کی تفصیل",
+            "paymentInfo": "ادائیگی کی معلومات",
+            "remarks": "تبصرے",
+            "employeeName": "ملازم کا نام",
+            "employeeId": "ملازم آئی ڈی",
+            "department": "محکمہ",
+            "position": "عہدہ",
+            "email": "ای میل",
+            "salaryPeriod": "تنخواہ کی مدت",
+            "basicSalary": "بنیادی تنخواہ",
+            "overtimeAmount": "اضافی وقت کی رقم",
+            "grossSalary": "مجموعی تنخواہ",
+            "deductions": "کٹوتیاں",
+            "noDeductions": "کوئی کٹوتی نہیں",
+            "totalDeductions": "کل کٹوتیاں",
+            "netSalary": "خالص تنخواہ",
+            "status": "حیثیت",
+            "paymentDate": "ادائیگی کی تاریخ",
+            "notPaidYet": "ابھی تک ادا نہیں کیا گیا",
+            "generatedOn": "تیار شدہ بتاریخ",
+            "lastUpdated": "آخری اپ ڈیٹ",
+            "paidOn": "ادائیگی کی تاریخ:"
+        },
+        "disburse": {
+            "title": "تنخواہ ادا کریں",
+            "paymentSource": "ادائیگی کا ذریعہ",
+            "selectPaymentSource": "ادائیگی کا ذریعہ منتخب کریں",
+            "till": "ٹل",
+            "director": "ڈائریکٹر",
+            "selectDirector": "ڈائریکٹر منتخب کریں",
+            "paymentMethod": "ادائیگی کا طریقہ",
+            "cash": "نقد",
+            "bank": "بینک",
+            "cancel": "منسوخ",
+            "disburse": "تنخواہ ادا کریں",
+            "processing": "پروسیسنگ...",
+            "success": "تنخواہ کامیابی سے ادا کی گئی",
+            "failed": "تنخواہ ادا کرنے میں ناکام"
+        }
+    }
+}
